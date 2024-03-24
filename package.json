@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "esbuild": "^0.19.4",
+    "sass": "^1.69.2"
+  }
+}

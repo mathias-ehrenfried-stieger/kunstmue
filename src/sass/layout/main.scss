@@ -1,0 +1,18 @@
+main {
+
+ // allgemeine Style
+
+  
+}
+
+@include breakpoint(0, $mobile) {
+  main {
+  }
+
+}
+
+@include breakpoint($desktop) {
+  main {
+  }
+  
+}

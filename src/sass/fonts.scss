@@ -1,0 +1,24 @@
+// TODO: Host fonts locally with https://google-webfonts-helper.herokuapp.com/fonts
+@font-face {
+     font-family: 'Source Sans Pro';
+     src: url('./fonts/SourceSansPro-Regular.otf') format('opentype'),
+          url('./fonts/SourceSansPro-Regular.otf') format('opentype');
+     font-weight: 400;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Source Sans Pro';
+     src: url('./fonts/SourceSansPro-Bold.otf') format('opentype'),
+          url('./fonts/SourceSansPro-Bold.otf') format('opentype');
+     font-weight: 700;
+     font-style: bold;
+}
+
+@font-face {
+     font-family: 'Source Sans Pro';
+     src: url('./fonts/SourceSansPro-Light.otf') format('opentype'),
+          url('./fonts/SourceSansPro-Light.otf') format('opentype');
+     font-weight: 100;
+     font-style: light;
+}
