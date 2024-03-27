@@ -13,6 +13,15 @@ main {
 
 @include breakpoint($desktop) {
   main {
-  }
+    background-image: url('./images/Startseite-bg-quer.svg');
+    height: 83vh; /* Höhe des sichtbaren Bereichs */
+    width: 100%; /* Breite des Elements */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h1{
+      text-align: center;
+}
   
+}
 }

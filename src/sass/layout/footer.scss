@@ -5,4 +5,32 @@
 
 @include breakpoint($desktop) {
  
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(31, 30, 30);
+        height: 7vh;
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            padding-top: 1rem;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1rem;
+                margin: 10px 0;
+            }
+        }
+
+        .socials{
+            height: 2rem;
+            width: 2rem;
+        }
+    }
 }

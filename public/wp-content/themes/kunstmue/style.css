@@ -1,7 +1,7 @@
+@charset "UTF-8";
 /*!
-Theme Name: Marcus
+Theme Name: Kunstmue
 Author: Mathias
-Author URI: https://example.com/
 Version: 1.0
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -76,6 +76,12 @@ table {
   font-weight: 100;
   font-style: light;
 }
+@font-face {
+  font-family: "Interstate-regular";
+  src: url("./fonts/Interstate-regular.tff") format("truetypefont"), url("./fonts/Interstate-regular.tff") format("truetypefont");
+  font-weight: 400;
+  font-style: regular;
+}
 .show {
   display: block;
   visibility: visible;
@@ -97,6 +103,68 @@ a {
 @media (min-width: 37.5rem) {
   :root {
     font-size: 23px;
+  }
+}
+@media (min-width: 37.5rem) {
+  header {
+    background-color: rgb(31, 30, 30);
+    height: 7vh;
+  }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 1rem;
+  }
+  header ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+}
+@media (min-width: 37.5rem) {
+  main {
+    background-image: url("./images/Startseite-bg-quer.svg");
+    height: 83vh; /* Höhe des sichtbaren Bereichs */
+    width: 100%; /* Breite des Elements */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main h1 {
+    text-align: center;
+  }
+}
+@media (min-width: 37.5rem) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(31, 30, 30);
+    height: 7vh;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 1rem;
+  }
+  footer ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  footer .socials {
+    height: 2rem;
+    width: 2rem;
   }
 }
 

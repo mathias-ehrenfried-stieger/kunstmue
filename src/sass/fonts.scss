@@ -22,3 +22,11 @@
      font-weight: 100;
      font-style: light;
 }
+
+@font-face{
+     font-family: 'Interstate-regular';
+     src: url('./fonts/Interstate-regular.tff') format('truetypefont'),
+          url('./fonts/Interstate-regular.tff') format('truetypefont');
+     font-weight: 400;
+     font-style: regular;
+}
