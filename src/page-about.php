@@ -1,5 +1,7 @@
+<?php 
+/* Template Name: about */
+?>
 
-  
   <?php get_header(); ?>
   <main>
     <section class="hero"></section>

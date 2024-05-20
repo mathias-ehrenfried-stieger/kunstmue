@@ -1,14 +1,14 @@
 require 'mina/deploy'
 require 'mina/git'
 
-set :application_name, 'marcus'
-set :domain, 'vm-teal.multimediatechnology.at'
-set :deploy_to, '/home/admin/marcuswp'
-set :repository, 'git@gitlab.mediacube.at:fhs49058/cms-2023-wp-stieger.git'
+set :application_name, 'kunstmue'
+set :domain, '5.75.157.154'
+set :deploy_to, '/home/admin/kunstmue'
+set :repository, 'git@github.com:mathias-ehrenfried-stieger/kunstmue.git'
 set :branch, 'main'
 set :user, 'admin'
 set :keep_releases, '3'
-set :port, '5412'
+
 
 
 # shared dirs and files will be symlinked into the app-folder by the 'deploy:link_shared_paths' step.
