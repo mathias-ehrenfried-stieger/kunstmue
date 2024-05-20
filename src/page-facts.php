@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: partner */
+/* Template Name: facts */
 ?>
 
   <?php get_header(); ?>
