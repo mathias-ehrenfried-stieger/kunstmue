@@ -136,14 +136,11 @@ li:hover {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 0 20px;
-    padding-top: 0.8rem;
   }
   header .nav a {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
-    margin: 10px 0;
   }
   header .nav a:hover {
     color: #DAAD29;
@@ -154,14 +151,11 @@ li:hover {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
-    padding-top: 0.8rem;
   }
   .menu a {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
-    margin: 10px 0;
   }
   .menu a:hover {
     color: #DAAD29;
@@ -389,6 +383,7 @@ li:hover {
   .plan {
     max-height: 30rem;
     max-width: 30rem;
+    background-color: #E9E9E9;
   }
 }
 @media (min-width: 37.5rem) {
