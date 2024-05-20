@@ -1,0 +1,143 @@
+@include breakpoint(0, $mobile) {
+}
+
+@include breakpoint($desktop) {
+    .contact-hero-container
+    {
+        height: 80vh;
+        background-image: url('./images/background-contact.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-hero{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        width: 60%;
+        h1{
+            color: white;
+            font-weight: 700;
+            font-size: 3rem;
+            text-align: left;
+        }
+        h2{
+            color: white;
+            font-weight: 700;
+            font-size: 2rem;
+            text-align: left;
+        }
+        p{
+            color: white;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: left;
+            padding: .5rem
+        }
+    }
+    .contact-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .contact-hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        width: 80%;
+    }
+    .btn{
+        background-color: #DAAD29;
+        color: white;
+        padding: .5rem 1rem;
+        border: none;
+        
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover{
+            background-color: #1E1E1E;
+        }
+    }
+    .contact-rest{
+        background-color: #1E1E1E;
+        color: white;
+        min-height: 80vh;
+    }
+    .team-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        
+        
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+        h3{
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+    .person img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .vorstand-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 5rem;
+        
+    }
+    .big-heading{
+           color: white;
+            font-weight: 700;
+            font-size: 2.5rem;
+            text-align: left;
+    }
+
+    .contact-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1E1E1E;
+        padding: 3rem;
+    }
+    .contact-content{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        gap: 1.5rem;
+        flex-direction: column;
+        width: 65%;
+        color: white;
+    }
+    .golden{
+        p{
+        color: #DAAD29;
+    }
+}
+}

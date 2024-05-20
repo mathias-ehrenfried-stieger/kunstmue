@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: about */
+/* Template Name: galerie */
 ?>
 
   <?php get_header(); ?>

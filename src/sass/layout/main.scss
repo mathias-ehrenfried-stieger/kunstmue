@@ -14,7 +14,17 @@ main {
 @include breakpoint($desktop) {
   main {
     
-    
+    .fake-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #DAAD29;
+      color: black;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+      
+    }
     h1{
       text-align: center;
       font-size: 2rem;

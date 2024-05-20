@@ -1,8 +1,8 @@
 <?php 
-/* Template Name: about */
+/* Template Name: line-up */
 ?>
 
-  <?php get_header(); ?>
+<?php get_header(); ?>
   <main>
     <h1>Work in Progress</h1>
 

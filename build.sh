@@ -1,6 +1,14 @@
 #!/bin/sh
 npx sass ./src/sass/style.scss ./public/wp-content/themes/kunstmue/style.css
 cp ./src/index.php ./public/wp-content/themes/kunstmue
+cp ./src/page-about.php ./public/wp-content/themes/kunstmue
+cp ./src/page-contact.php ./public/wp-content/themes/kunstmue
+cp ./src/page-line-up.php ./public/wp-content/themes/kunstmue
+cp ./src/page-partner.php ./public/wp-content/themes/kunstmue
+cp ./src/page-facts.php ./public/wp-content/themes/kunstmue
+cp ./src/page-galerie.php ./public/wp-content/themes/kunstmue
+
+
 cp ./src/front-page.php ./public/wp-content/themes/kunstmue
 cp ./src/favicons/*.* ./public/wp-content/themes/kunstmue
 cp ./src/php/*.* ./public/wp-content/themes/kunstmue
