@@ -1,4 +1,6 @@
-# Marcus G. Miller's website
+# Kunstmue website
+
+this is source code for the Website of our free alternative Festival in Bad Goisern am Hallstättersee.
 
 ## Webdev-Dependencies
 
