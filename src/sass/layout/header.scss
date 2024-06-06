@@ -3,9 +3,66 @@ header {
 }
 
 @include breakpoint(0, $mobile) {
+
+header{
+  background-color: rgb(31, 30, 30);
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+.hidden{
+  display: none;
+}
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.3rem;
+        &:hover{
+          color: #DAAD29;
+        }
+    }
+  }
+  .logo{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #menu{
+    position: absolute;
+    top: 10%;
+    width: 100vb;
+  }
+  .menu-container {
+    
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
   
 }
-
+  
+}
+}
 @include breakpoint($desktop) {
 
   header{
@@ -16,7 +73,12 @@ header {
     justify-content: center;
     align-items: center;
   
-  
+  .burger{
+    display: none;
+  }
+  .close{
+    display: none;
+  }
   .logo{
     height: 2rem;
     display: flex;
