@@ -1,0 +1,70 @@
+@include breakpoint(0, $mobile) {
+    
+
+}
+
+@include breakpoint($desktop) {
+
+    #line-up{
+
+        h1,h2{
+            color: white;
+            font-weight: 700;  
+        }
+        h1{
+            font-size: 3rem;
+            text-align: left;
+         }
+        h2{
+            font-size: 2rem;
+        }
+
+
+        .line-up-hero{
+
+        background-image: url('./images/l-u-banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    }
+    .line-up-hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 60%;
+    }
+
+    .line-up-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        background-color: #1E1E1E;
+        
+        
+    }
+    .line-up-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        img{
+            max-height: 80vh;
+            max-width: 80vw;
+        }
+
+    }
+    
+}

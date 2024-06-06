@@ -771,9 +771,9 @@ main h1 {
     color: #DAAD29;
   }
 }
-@media (min-width: 37.5rem) {
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
   .imprint-hero-container {
-    background-color: #1E1E1E;
+    background-color: rgb(19, 19, 19);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -792,7 +792,83 @@ main h1 {
     justify-content: center;
     gap: 2rem;
     height: 80vh;
+    width: 65%;
+  }
+}
+@media (min-width: 37.5rem) {
+  .imprint-hero-container {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .imprint-hero-container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+  }
+  .imprint-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 80vh;
+    width: 55%;
+  }
+}
+@media (min-width: 37.5rem) {
+  #line-up h1, #line-up h2 {
+    color: white;
+    font-weight: 700;
+  }
+  #line-up h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  #line-up h2 {
+    font-size: 2rem;
+  }
+  #line-up .line-up-hero {
+    background-image: url("./images/l-u-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .line-up-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
     width: 60%;
+  }
+  .line-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #1E1E1E;
+  }
+  .line-up-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .line-up-content img {
+    max-height: 80vh;
+    max-width: 80vw;
   }
 }
 
