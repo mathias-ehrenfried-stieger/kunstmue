@@ -1,7 +1,79 @@
 @include breakpoint(0, $mobile) {
+
+    .fact-hero{
+        height: 80vh;
+        background-image: url('./images/background-facts.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+
+        h1{
+            color: white;
+            font-weight: 700;
+            font-size: 3rem;
+            padding: 1rem 5rem;
+        }
+        p{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            padding: .5rem
+        }
+    }
+    .hero-fact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .hard-facts-first{
+        background-color: #1E1E1E;
+        color: white;
+
+        h2{
+            font-size: 2rem;
+            font-weight: 700;
+            padding-bottom: 1rem;
+            text-align: left;
+        }
+        .hard-facts-first-container{
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            img{
+                
+                max-height: 80vh;
+                max-width: 80vw;
+            }
+        }
+        p{
+            padding-bottom: 1rem;
+            line-height: 1.5rem;
+            font-weight: 100;
+        }
+
+        
+    }
+
 }
 
 @include breakpoint($desktop) {
+    h2{
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
 
     .fact-hero{
         height: 80vh;
@@ -159,4 +231,83 @@
         max-width: 30rem;
         background-color: #E9E9E9;
     }
+
+    .hard-facts-fifth-container{
+        background-color: #1E1E1E;    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hard-facts-fifth{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 100vh;
+        width: 60%;
+        background-color: #1E1E1E;
+        color: white;
+        flex-direction: column;
+        h2{
+            padding-top: 2rem;
+        }
+
+    }
+    .timeline-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch; /* Changed from center to stretch */
+        gap: 2rem;
+        padding: 5rem;
+        height: 100vh; /* Ensure the container takes the full viewport height */
+    }
+    
+    .anreiseart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Adjust to space-between for equal distribution */
+        align-items: flex-start;
+        flex: 1; /* Allow the column to take up available space */
+        height: 100%; /* Ensure it takes full height of its container */
+    }
+    
+    .anreiseart h3 {
+        flex-grow: 1; /* Allow the h3 elements to grow and take up space equally */
+        margin: 0; /* Remove default margins for better alignment */
+        display: flex;
+        align-items: center; /* Center text vertically */
+    }
+    
+    .anreisebeschreibung {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        gap: 2rem;
+    }
+    
+    .anreiseding {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 15%;
+        height: 100%;
+    }
+    
+    .anreisegrafik{
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        padding: 2rem 0;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    
 }
