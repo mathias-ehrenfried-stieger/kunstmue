@@ -1,13 +1,35 @@
 main {
 
  // allgemeine Style
-
+ h1{
+  text-align: center;
+  font-size: 2rem;
+  color: #DAAD29
+}
   
 }
 
 @include breakpoint(0, $mobile) {
   main {
+    .hero{
+      background-image: url('./images/mobile.svg');
+      height: 86vh; 
+      width: 100%; 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .below{
+      background-color: #2B2B2B;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
   }
+
 
 }
 
@@ -25,11 +47,7 @@ main {
       text-decoration: none;
       
     }
-    h1{
-      text-align: center;
-      font-size: 2rem;
-      color: #DAAD29
-}
+    
 .hero{
   background-image: url('./images/Banner_Desktop.svg');
     height: 86vh; 
