@@ -1,0 +1,33 @@
+@include breakpoint(0, $mobile) {
+
+
+}
+
+@include breakpoint($desktop) {
+
+    .imprint-hero-container{
+        
+        background-color: #1E1E1E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            color: white;
+            font-weight: 700;
+            font-size: 3rem;
+            text-align: left;
+            
+        }
+    }
+    .imprint-hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        height: 80vh;
+        width: 60%;
+    }
+
+}

@@ -1,9 +1,6 @@
 <footer>
         <?php wp_footer(); ?>
-        <ul>
-            <li><a href="#">Impressum</a></li>
-            <li><a href="#">AGB</a></li>
-        </ul>
+        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
         <div>
                 <a href=""><img class="socials" src="<?php echo get_template_directory_uri(); ?>/images/Insta.svg" alt="Insta"></a>
                 <a href=""><img class="socials" src="<?php echo get_template_directory_uri(); ?>/images/Facebook.svg" alt="Facebook"></a>
