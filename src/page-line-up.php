@@ -17,7 +17,7 @@
   <section class="line-up-container">
     <div class="line-up-content">
     <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/KM24_Banner-5.jpg" alt="Geländeplan">   
-    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/KM24_Banner-5.jpg" download>Download File</a> 
+    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/KM24_Banner-5.jpg" download>Download Time-Table</a> 
   </div>
   
   </section>

@@ -122,7 +122,8 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
+            gap: 4rem;
+            
         }
         
     }
@@ -167,7 +168,7 @@
             text-align: left;
         }
         .hard-facts-second-teaser{
-            width: 60%;
+            width: 70%;
             display: flex;
             flex-direction: column;
             gap: 1rem;
@@ -191,6 +192,7 @@
         align-items: center;
         padding: 2rem;
         min-height: 80vh;
+        gap: 2rem;
         
     }
     .hard-facts-fourth{
@@ -207,7 +209,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         gap: 1rem;
         h2{
             font-size: 2rem;
@@ -221,10 +223,14 @@
             font-weight: 400;
             text-align: left;
             line-height: 1.3rem;
-            padding: 1rem;
+            padding: 1rem 0;
         
         }
-        width: 45%;
+        iframe{
+            width: 100%;
+            height: 60vh;
+        }
+        width: 70%;
     }
     .plan{
         max-height: 30rem;
@@ -244,7 +250,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         min-height: 100vh;
-        width: 60%;
+        width: 70%;
         background-color: #1E1E1E;
         color: white;
         flex-direction: column;
@@ -276,6 +282,7 @@
         flex-grow: 1; /* Allow the h3 elements to grow and take up space equally */
         margin: 0; /* Remove default margins for better alignment */
         display: flex;
+        justify-content: flex-start; /* Center text horizontally */
         align-items: center; /* Center text vertically */
     }
     
@@ -309,5 +316,107 @@
         font-weight: 700;
         text-align: left;
     }
+    .facts-parking{
+        background-color: #1E1E1E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: white;
+        }
+        padding: 2rem;
+    }
+    .facts-parking-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 70%;
+    }
+    .facts-foodcorner{
+        background-color: #E9E9E9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: black;
+        }
+        padding: 2rem;
+    }
+    .facts-foodcorner-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 70%;
+    }
+    .facts-foodcorner-below{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 100%;
+        padding-top: 2rem;
     
+    }
+    .facts-foodcorner-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 70%;
+    }
+    .facts-kinderprogramm{
+        background-color: #1E1E1E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        h2,p, ul {
+            color: white;
+            text-align: left;
+        }
+        padding: 4rem;
+        ul{
+            list-style:circle;
+            padding-left: 2rem;
+        }
+        li:hover{
+            color: #DAAD29;
+            transform: none;
+        }
+
+    }
+
+    .facts-kinderprogramm-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 70%;
+    }
+    .facts-kinderprogramm-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        flex:1;
+        width: 70%;
+
+    }
+    .img-kinderprogramm{
+        width: auto;
+        height: 60vh;
+        max-height: 100%;
+        padding: 2rem 0;
+    }
 }
