@@ -248,6 +248,17 @@ main h1 {
     align-items: center;
     gap: 1rem;
   }
+  .btn {
+    background-color: #DAAD29;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .desktop {
+    display: none;
+  }
 }
 @media (min-width: 37.5rem) {
   main .fake-button {
@@ -290,6 +301,21 @@ main h1 {
   main .video-container iframe {
     width: 100%;
     height: 100%;
+  }
+  main .btn {
+    background-color: #DAAD29;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  main .btn:hover {
+    background-color: rgba(218, 174, 41, 0.7725490196);
+  }
+  .mobile {
+    display: none;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -352,6 +378,12 @@ main h1 {
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
   .fact-hero {
     height: 80vh;
     background-image: url("./images/background-facts.jpg");
@@ -387,12 +419,6 @@ main h1 {
     background-color: #1E1E1E;
     color: white;
   }
-  .hard-facts-first h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    padding-bottom: 1rem;
-    text-align: left;
-  }
   .hard-facts-first .hard-facts-first-container {
     padding: 2rem;
     display: flex;
@@ -409,6 +435,216 @@ main h1 {
     padding-bottom: 1rem;
     line-height: 1.5rem;
     font-weight: 100;
+  }
+  .hard-facts-first-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .hard-facts-second {
+    background-color: #E9E9E9;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .hard-facts-second h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  .hard-facts-second ul {
+    list-style: circle;
+    padding-left: 2rem;
+  }
+  .hard-facts-second .hard-facts-second-teaser {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hard-facts-second .hard-facts-second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .hard-facts-second .hard-facts-second-container img {
+    padding: 1rem 0;
+    max-height: 85vh;
+    max-width: 85vw;
+  }
+  .fake-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAAD29;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  .hard-facts-third {
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 60vh;
+    gap: 2rem;
+  }
+  .plan {
+    max-height: 20rem;
+    max-width: 20rem;
+    background-color: #E9E9E9;
+  }
+  .hard-facts-fourth {
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hard-facts-fourth iframe {
+    width: 100%;
+    height: 45vh;
+  }
+  .hard-facts-fourth-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 85%;
+    padding: 2rem 0;
+  }
+  .hard-facts-fifth-container {
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hard-facts-fifth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #1E1E1E;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .hard-facts-fifth h2 {
+    padding-top: 2rem;
+  }
+  .timeline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    height: 120vh; /* Ensure the container takes the full viewport height */
+  }
+  .anreisebeschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .anreiseart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    flex: 1;
+    height: 100%;
+  }
+  .anreiseding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 15%;
+    height: 100%;
+  }
+  .anreisegrafik {
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .facts-parking {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 2rem;
+  }
+  .park-plan {
+    width: 100%;
+    height: auto;
+  }
+  .img-foodcorner {
+    width: 100%;
+    height: auto;
+  }
+  .facts-foodcorner {
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+  }
+  .facts-foodcorner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .facts-foodcorner-below {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .facts-kinderprogramm {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 80vh;
+  }
+  .facts-kinderprogramm-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .facts-kinderprogramm-container img {
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 37.5rem) {
@@ -481,6 +717,10 @@ main h1 {
     text-align: left;
     line-height: 1.3rem;
   }
+  .hard-facts-first-text ul {
+    list-style: circle;
+    padding-left: 2rem;
+  }
   .hard-facts-first-text li {
     font-size: 0.8rem;
     font-weight: 400;
@@ -531,6 +771,16 @@ main h1 {
     min-height: 80vh;
     gap: 2rem;
   }
+  .plan {
+    width: 60%;
+    height: 80vh;
+    background-color: #E9E9E9;
+  }
+  .park-plan {
+    width: 70%;
+    height: auto;
+    background-color: #E9E9E9;
+  }
   .hard-facts-fourth {
     display: flex;
     flex-direction: column;
@@ -564,11 +814,6 @@ main h1 {
   .hard-facts-fourth-content iframe {
     width: 100%;
     height: 60vh;
-  }
-  .plan {
-    max-height: 30rem;
-    max-width: 30rem;
-    background-color: #E9E9E9;
   }
   .hard-facts-fifth-container {
     background-color: #1E1E1E;
@@ -794,18 +1039,6 @@ main h1 {
     align-items: flex-start;
     gap: 1rem;
     width: 80%;
-  }
-  .btn {
-    background-color: #DAAD29;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .btn:hover {
-    background-color: rgba(218, 174, 41, 0.7725490196);
   }
   .contact-rest {
     background-color: #1E1E1E;

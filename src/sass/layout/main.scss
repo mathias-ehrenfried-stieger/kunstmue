@@ -29,7 +29,18 @@ main {
       gap: 1rem;
     }
   }
-
+  .btn{
+    background-color: #DAAD29;
+    color: black;
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+  
+  }
+  .desktop{
+    display: none;
+  }
 
 }
 
@@ -82,6 +93,22 @@ main {
   height: 100%;
 
 }
-
+.btn{
+  background-color: #DAAD29;
+  color: white;
+  padding: .5rem 1rem;
+  border: none;
+  
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover{
+      background-color: #daae29c5 ;
+  }
 }
+}
+.mobile{
+  display: none;
+}
+
 }
