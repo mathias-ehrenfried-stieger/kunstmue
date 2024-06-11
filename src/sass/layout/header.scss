@@ -72,7 +72,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+      
   .burger{
     display: none;
   }
@@ -80,7 +80,7 @@ header{
     display: none;
   }
   .logo{
-    height: 2rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ header{
     a{
         color: white;
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1rem;
         &:hover{
           color: #DAAD29;
         }
@@ -114,7 +114,7 @@ header{
   a{
       color: white;
       text-decoration: none;
-      font-size: 1.3rem;
+      
       &:hover{
         color: #DAAD29;
       }

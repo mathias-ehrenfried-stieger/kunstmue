@@ -11,8 +11,8 @@
         <h2>WERDE TEIL DER KUNSTMUE CREW</h2>
     </div>
     <div class="contact-hero-text">
-        <p>Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
-        <a href="#" class="btn">Ich will auch dabei sein!</a>
+        <p class="contact-hero-paragraph">Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
+        <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
     </div>
     </div>
     </section>

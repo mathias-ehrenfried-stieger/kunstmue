@@ -189,7 +189,7 @@ li:hover {
     display: none;
   }
   header .logo {
-    height: 2rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +204,7 @@ li:hover {
   header .nav a {
     color: white;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   header .nav a:hover {
     color: #DAAD29;
@@ -219,7 +219,6 @@ li:hover {
   .menu a {
     color: white;
     text-decoration: none;
-    font-size: 1.3rem;
   }
   .menu a:hover {
     color: #DAAD29;
@@ -232,6 +231,9 @@ main h1 {
 }
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
+  main p {
+    line-height: 20px;
+  }
   main .hero {
     background-image: url("./images/mobile.svg");
     height: 86vh;
@@ -240,7 +242,7 @@ main h1 {
     background-size: cover;
   }
   main .below {
-    background-color: #2B2B2B;
+    background-color: #1e1e1e;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -279,7 +281,7 @@ main h1 {
     background-size: cover;
   }
   main .below {
-    background-color: #2B2B2B;
+    background-color: #1e1e1e;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -304,15 +306,27 @@ main h1 {
   }
   main .btn {
     background-color: #DAAD29;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: black;
     padding: 0.5rem 1rem;
     border: none;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
   }
+  main .btn p {
+    color: black;
+  }
   main .btn:hover {
     background-color: rgba(218, 174, 41, 0.7725490196);
+  }
+  main .bigAndBold {
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   .mobile {
     display: none;
@@ -324,7 +338,7 @@ main h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(31, 30, 30);
+    background-color: #2B2B2B;
     height: 10vh;
     gap: 2rem;
     font-weight: 100;
@@ -352,8 +366,8 @@ main h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(31, 30, 30);
-    height: 10vh;
+    background-color: #2B2B2B;
+    height: 8vh;
     padding: 1rem;
   }
   footer ul {
@@ -362,19 +376,20 @@ main h1 {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
     padding-top: 1rem;
   }
   footer ul a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    margin: 10px 0;
     font-weight: 100;
   }
   footer .socials {
     height: 2rem;
     width: 2rem;
+  }
+  footer .socials:hover {
+    transform: rotate(-5deg) scale(1.1);
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -1016,12 +1031,11 @@ main h1 {
     font-size: 2rem;
     text-align: left;
   }
-  .contact-hero p {
+  .contact-hero .contact-hero-paragraph {
     color: white;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
-    padding: 0.5rem;
   }
   .contact-header {
     display: flex;

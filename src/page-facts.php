@@ -86,7 +86,7 @@
             <h2>ANREISE</h2>
             <p>Das Kunstmue Festival Gelände kann gut mit den öffentlichen Verkehrsmitteln erreicht werden. Wir bitten um eine umweltschonende Anreise:</p>
             <div class="timeline-container">
-                <div class="anreiseart">
+                <div class="anreiseart desktop">
                     <h3>
                         ZUG
                     </h3>
