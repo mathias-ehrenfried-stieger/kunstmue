@@ -831,9 +831,7 @@ main h1 {
     background-color: #1E1E1E;
     color: white;
     flex-direction: column;
-  }
-  .hard-facts-fifth h2 {
-    padding-top: 2rem;
+    padding: 2rem;
   }
   .timeline-container {
     display: flex;
