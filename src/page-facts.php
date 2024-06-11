@@ -124,7 +124,7 @@
     <section class="facts-foodcorner">
         <div class="facts-foodcorner-container">
             <h2>FOODCORNER DER D´SPEIS</h2>
-            <img class="park-plan" src="<?php echo get_template_directory_uri(); ?>/images/parking.png" alt="Parkinglot">
+            <img class="speis" src="<?php echo get_template_directory_uri(); ?>/images/dspeis.jpg" alt="Parkinglot">
             <p>In unserem erweitertem Foodcorner findet ihr heuer Foodtrucks von d’Speis aus St. Wolfgang. Sandro, Eigentümer und Koch mit Herz und Seele verwöhnt euch mit frischen, regionalen und ausgewählten Bio Produkten. Qualitätsfleisch aus der Region und vegetarischen sowie vegane Gerichte stehen auf der Speisekarte.
                 Lasst euch kulinarisch verwöhnen!</p>
 

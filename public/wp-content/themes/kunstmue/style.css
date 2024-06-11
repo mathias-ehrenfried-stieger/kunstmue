@@ -998,6 +998,10 @@ main h1 {
     max-height: 100%;
     padding: 2rem 0;
   }
+  .speis {
+    width: 85%;
+    height: auto;
+  }
 }
 @media (min-width: 37.5rem) {
   .contact-hero-container {
