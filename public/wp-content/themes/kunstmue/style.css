@@ -367,7 +367,7 @@ main h1 {
     justify-content: space-around;
     align-items: center;
     background-color: #2B2B2B;
-    height: 8vh;
+    height: 6vh;
     padding: 1rem;
   }
   footer ul {
@@ -376,7 +376,6 @@ main h1 {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
   }
   footer ul a {
     color: white;
