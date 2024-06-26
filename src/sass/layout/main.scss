@@ -33,14 +33,31 @@ main {
       gap: 1rem;
     }
   }
+  
   .btn{
     background-color: #DAAD29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: max-content;
+    p{
+      color: black;
+    }
     color: black;
     padding: .5rem 1rem;
     border: none;
+    
     font-size: 1rem;
     font-weight: 700;
-  
+    &:hover{
+        background-color: #daae29c5 ;
+    }
+  }
+  .bigAndBold{
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   .desktop{
     display: none;

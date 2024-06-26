@@ -252,10 +252,26 @@ main h1 {
   }
   .btn {
     background-color: #DAAD29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: max-content;
     color: black;
     padding: 0.5rem 1rem;
     border: none;
     font-size: 1rem;
+    font-weight: 700;
+  }
+  .btn p {
+    color: black;
+  }
+  .btn:hover {
+    background-color: rgba(218, 174, 41, 0.7725490196);
+  }
+  .bigAndBold {
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .desktop {
@@ -1000,6 +1016,107 @@ main h1 {
     height: auto;
   }
 }
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .contact-hero-container {
+    height: 80vh;
+    background-image: url("./images/background-contact.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contact-hero-container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .contact-hero-container h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .contact-hero-container p {
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .contact-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .contact-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+  }
+  .contact-rest {
+    background-color: #1E1E1E;
+    color: white;
+    min-height: 80vh;
+  }
+  .contact-rest h2 {
+    color: #DAAD29;
+  }
+  .vorstand-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+  }
+  .team-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+  }
+  .person img {
+    width: 100%;
+    height: auto;
+  }
+  .person h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+    padding-bottom: 3rem;
+  }
+  .golden {
+    color: #DAAD29;
+  }
+  .contact-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
 @media (min-width: 37.5rem) {
   .contact-hero-container {
     height: 80vh;
@@ -1176,7 +1293,7 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
   }
   .line-up-hero h1 {
     color: white;
@@ -1314,6 +1431,106 @@ main h1 {
     color: white;
     font-size: 1.5rem;
     text-align: center;
+  }
+}
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .partner-hero {
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partner-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 80%;
+    text-align: left;
+    padding: 2rem 0;
+  }
+  .partner-hero-text h1 {
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+  }
+  .partner-hero-text h2 {
+    font-size: 1.5rem;
+  }
+  .partner-hero-text p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .partner-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9E9E9;
+    padding-bottom: 3rem;
+  }
+  .partner-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .partner-logo-container img {
+    max-width: 15rem;
+    max-height: 7rem;
+  }
+}
+@media (min-width: 37.5rem) {
+  .partner-hero {
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partner-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    color: black;
+    width: 80%;
+    padding: 5rem 0;
+  }
+  .partner-hero-text h1 {
+    color: black;
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 700;
+  }
+  .partner-hero-text p {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .partner-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #E9E9E9;
+    padding-bottom: 5rem;
+  }
+  .partner-logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 80%;
+  }
+  .partner-logo-container img {
+    max-width: 20rem;
+    max-height: 10rem;
   }
 }
 
