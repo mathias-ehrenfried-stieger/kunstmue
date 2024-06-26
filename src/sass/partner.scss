@@ -1,6 +1,6 @@
 @include breakpoint(0, $mobile) {
     .partner-hero{
-        background-color: #E9E9E9 ;
+        background-color: white ;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -37,7 +37,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #E9E9E9;
+        background-color: white;
         padding-bottom: 3rem;
     }
     .partner-logo-container{

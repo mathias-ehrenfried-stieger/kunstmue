@@ -1435,7 +1435,7 @@ main h1 {
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .partner-hero {
-    background-color: #E9E9E9;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1469,7 +1469,7 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E9E9E9;
+    background-color: white;
     padding-bottom: 3rem;
   }
   .partner-logo-container {
