@@ -1221,5 +1221,51 @@ main h1 {
     max-width: 80vw;
   }
 }
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .about-hero {
+    height: 85vh;
+    background-image: url("./images/background-facts.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about-hero h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about-hero p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 37.5rem) {
+  .about-hero {
+    height: 85vh;
+    background-image: url("./images/background-facts.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about-hero h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .about-hero p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

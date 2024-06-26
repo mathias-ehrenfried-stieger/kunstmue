@@ -1,0 +1,51 @@
+@include breakpoint(0, $mobile) {
+    .about-hero{
+        height: 85vh;
+        background-image: url('./images/background-facts.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        h1{
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+        }
+        p{
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
+}
+
+@include breakpoint($desktop) {
+    .about-hero{
+        height: 85vh;
+        background-image: url('./images/background-facts.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        h1{
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+        }
+        p{
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    
+    
+}
