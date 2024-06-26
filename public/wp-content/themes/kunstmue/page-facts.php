@@ -52,7 +52,7 @@
         </div>
         <div class="hard-facts-second-container">
             <img src="<?php echo get_template_directory_uri(); ?>/images/camping.jpg" alt="Camping">
-            <div class="hard-facts-first-text">
+            <div class="hard-facts-second-text">
                 <h2>GRATIS CARAVAN</h2>
                 <p class="fake-button">Jetzt Caravanplatz sichern!</p>
 
@@ -101,18 +101,24 @@
                     <img class="anreisegrafik" src="<?php echo get_template_directory_uri(); ?>/images/anreise-ding.svg" alt="Anreise">
                 </div>
                 <div class="anreisebeschreibung">
-                    <h3 class="mobile">ZUG</h3>
+                    <div>
+                    <h2 class="mobile">ZUG</h2>
                     <p>
                         Aussteigen in Bhf. Bad Goisern. Vom Bahnhofsplatz aus bei der Straßengabelung die rechte Straße entlang bis zur Brücke über den Mühlbach, unmittelbar danach rechts. Etwa 250 bis 300 Meter geradeaus, dann rechts, über die Goiserer Brücke, nach der Brücke gleich links. Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht.
                     </p>
-                    <h3 class="mobile">BUS</h3>
+                    </div>
+                    <div>
+                    <h2 class="mobile">BUS</h2>
                     <p>
                         Haltestelle: Bad Goisern Mitte / B145. Von der Bushaltestelle Richtung Bad Goisern Zentrum und von dort links halten. Weiter bis zur evangelischen Kirche, vorbei bis zur Goiserer Brücke (über die Traun), nach der Brücke gleich links, Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht. Der Weg zum Festival ist ab der Ortseinfahrt beschildert.
                     </p>
-                    <h3 class="mobile">AUTO</h3>
+                    </div>
+                    <div>
+                    <h2 class="mobile">AUTO</h2>
                     <p>
                         Anfahrt über B 145, Ortseinfahrt Bad Goisern Mitte (Kreisverkehr beim Hofer Supermarkt), ins Zentrum bis zur großen Kreuzung. Dort geradeaus, an der evangelischen Kirche vorbei bis zur Goiserer Brücke (über die Traun), nach der Brücke gleich links, Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht. Der Weg zum Festival ist ab der Ortseinfahrt beschildert. Begrenzte Parkmöglichkeiten gibt es am Straßenrand der Hinlaufstraße.
                     </p>
+                    </div>
                 </div>
             </div>
         </div>

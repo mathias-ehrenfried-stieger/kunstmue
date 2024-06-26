@@ -35,7 +35,6 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/wärme.jpg" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/greenroof.png" alt="logos">
 
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/rebel.jpg" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/ronacher.jpg" alt="logos">
 
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/dischgu.png" alt="logos">

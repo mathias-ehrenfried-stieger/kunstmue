@@ -15,10 +15,18 @@
     </div>
   </section>
   <section class="line-up-container">
+    <div class="desktop">
     <div class="line-up-content">
-    <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/KM24_Banner-5.jpg" alt="Geländeplan">   
-    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/KM24_Banner-5.jpg" download>Download Time-Table</a> 
-  </div>
+    <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" alt="Geländeplan">   
+    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" download>Download Time-Table</a>
+    </div> 
+    </div>
+    <div class="mobile">
+    <div class="line-up-content">
+    <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/line-up-mobile.jpg" alt="Geländeplan">   
+    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/line-up-mobile.jpg" download>Download Time-Table</a>
+    </div> 
+    </div>
   
   </section>
   </main>
