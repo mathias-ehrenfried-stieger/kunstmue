@@ -569,19 +569,12 @@ main h1 {
   .anreisebeschreibung {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
   }
   .anreiseart {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    flex: 1;
-    height: 100%;
+    display: none;
   }
   .anreiseding {
     display: flex;
@@ -657,6 +650,10 @@ main h1 {
     padding: 2rem;
   }
   .facts-kinderprogramm-container img {
+    width: 100%;
+    height: auto;
+  }
+  .speis {
     width: 100%;
     height: auto;
   }
@@ -1169,6 +1166,58 @@ main h1 {
     width: 55%;
   }
 }
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .line-up-hero {
+    background-image: url("./images/l-u-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .line-up-hero h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .line-up-hero h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .line-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+  }
+  .line-up-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .line-up-content img {
+    width: 100%;
+    height: auto;
+  }
+  .line-up-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 80%;
+  }
+}
 @media (min-width: 37.5rem) {
   #line-up h1, #line-up h2 {
     color: white;
@@ -1217,8 +1266,8 @@ main h1 {
     padding: 2rem;
   }
   .line-up-content img {
-    max-height: 80vh;
-    max-width: 80vw;
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {

@@ -191,19 +191,12 @@
     .anreisebeschreibung{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 5rem;
     }
     .anreiseart{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        flex: 1;
-        height: 100%;
+        display: none;
     }
     .anreiseding{
         display: flex;
@@ -288,6 +281,11 @@
             width: 100%;
             height: auto;
         }
+    }
+    .speis{
+        width: 100%;
+        height: auto;
+    
     }
     
 }

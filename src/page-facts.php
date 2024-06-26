@@ -86,7 +86,7 @@
             <h2>ANREISE</h2>
             <p>Das Kunstmue Festival Gelände kann gut mit den öffentlichen Verkehrsmitteln erreicht werden. Wir bitten um eine umweltschonende Anreise:</p>
             <div class="timeline-container">
-                <div class="anreiseart desktop">
+                <div class="desktop anreiseart">
                     <h3>
                         ZUG
                     </h3>
@@ -101,12 +101,15 @@
                     <img class="anreisegrafik" src="<?php echo get_template_directory_uri(); ?>/images/anreise-ding.svg" alt="Anreise">
                 </div>
                 <div class="anreisebeschreibung">
+                    <h3 class="mobile">ZUG</h3>
                     <p>
                         Aussteigen in Bhf. Bad Goisern. Vom Bahnhofsplatz aus bei der Straßengabelung die rechte Straße entlang bis zur Brücke über den Mühlbach, unmittelbar danach rechts. Etwa 250 bis 300 Meter geradeaus, dann rechts, über die Goiserer Brücke, nach der Brücke gleich links. Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht.
                     </p>
+                    <h3 class="mobile">BUS</h3>
                     <p>
                         Haltestelle: Bad Goisern Mitte / B145. Von der Bushaltestelle Richtung Bad Goisern Zentrum und von dort links halten. Weiter bis zur evangelischen Kirche, vorbei bis zur Goiserer Brücke (über die Traun), nach der Brücke gleich links, Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht. Der Weg zum Festival ist ab der Ortseinfahrt beschildert.
                     </p>
+                    <h3 class="mobile">AUTO</h3>
                     <p>
                         Anfahrt über B 145, Ortseinfahrt Bad Goisern Mitte (Kreisverkehr beim Hofer Supermarkt), ins Zentrum bis zur großen Kreuzung. Dort geradeaus, an der evangelischen Kirche vorbei bis zur Goiserer Brücke (über die Traun), nach der Brücke gleich links, Ca. 300 bis 400 Meter geradeaus, bis auf der linken Seite die Kunstmühle auftaucht. Der Weg zum Festival ist ab der Ortseinfahrt beschildert. Begrenzte Parkmöglichkeiten gibt es am Straßenrand der Hinlaufstraße.
                     </p>
@@ -128,13 +131,13 @@
             <p>In unserem erweitertem Foodcorner findet ihr heuer Foodtrucks von d’Speis aus St. Wolfgang. Sandro, Eigentümer und Koch mit Herz und Seele verwöhnt euch mit frischen, regionalen und ausgewählten Bio Produkten. Qualitätsfleisch aus der Region und vegetarischen sowie vegane Gerichte stehen auf der Speisekarte.
                 Lasst euch kulinarisch verwöhnen!</p>
 
-            <div class="facts-foodcorner-below">
+            <!-- <div class="facts-foodcorner-below">
                 <div class="facts-foodcorner-below-text">
                     <h2>Frühstücken & Frühshoppen</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
                 </div>
                 <img class="img-foodcorner" src="<?php echo get_template_directory_uri(); ?>/images/eingang.jpg"" alt=" Freier Eintritt">
-            </div>
+            </div> -->
         </div>
     </section>
 

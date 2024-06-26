@@ -1,5 +1,57 @@
 @include breakpoint(0, $mobile) {
-    
+
+    .line-up-hero{
+        background-image: url('./images/l-u-banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        h1{
+            color: white;
+            font-weight: 700;
+            font-size: 2rem;
+            text-align: left;
+        }
+        h2{
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-align: left;
+        }
+    }
+
+    .line-up-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1E1E1E;
+    }
+    .line-up-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+    .line-up-hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 80%;
+    }
 
 }
 
@@ -61,8 +113,8 @@
         gap: 2rem;
         padding: 2rem;
         img{
-            max-height: 80vh;
-            max-width: 80vw;
+            width: 100%;
+            height: auto;
         }
 
     }
