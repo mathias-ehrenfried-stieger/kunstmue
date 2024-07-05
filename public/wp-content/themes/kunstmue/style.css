@@ -235,7 +235,7 @@ main h1 {
     line-height: 20px;
   }
   main .hero {
-    background-image: url("./images/mobile.svg");
+    background-image: url("./images/mobile.jpg");
     height: 86vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ main h1 {
     text-decoration: none;
   }
   main .hero {
-    background-image: url("./images/Banner_Desktop.svg");
+    background-image: url("./images/Banner-desktop.svg");
     height: 86vh;
     width: 100%;
     background-repeat: no-repeat;
