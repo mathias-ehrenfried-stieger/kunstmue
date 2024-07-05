@@ -8,6 +8,9 @@ main {
 }
   
 }
+p{
+  line-height: 1.3rem;
+}
 
 @include breakpoint(0, $mobile) {
   main {

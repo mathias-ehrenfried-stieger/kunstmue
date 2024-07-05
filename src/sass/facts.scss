@@ -183,7 +183,7 @@
     .timeline-container {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         gap: 2rem;
         padding: 3rem 0;
@@ -194,19 +194,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 2rem;
     }
     .anreiseart{
         display: none;
     }
     .anreiseding{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        width: 15%;
-        height: 100%;
+        display: none;
     }
     .anreisegrafik{
         height: 100%;
@@ -459,8 +453,8 @@
         
     }
     .plan{
-        width: 60%;
-        height: 80vh;
+        width: 70%;
+        height: auto;
         background-color: #E9E9E9;
     }
 

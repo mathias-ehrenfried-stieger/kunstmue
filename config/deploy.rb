@@ -22,7 +22,7 @@ task :setup do
   command %[mkdir -p "#{fetch(:deploy_to)}/shared/public/wp-content/uploads"]
 end
 
-desc "Deploys the current version to the server."
+desc "Deploys the currsudoent version to the server."
 task :deploy do
   deploy do
     invoke :'git:clone'

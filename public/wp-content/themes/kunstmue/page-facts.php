@@ -68,8 +68,8 @@
         </div>
     </section>
     <section class="hard-facts-third">
-        <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/gelaendeplan.png" alt="Geländeplan">
-        <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/gelaendeplan.png" download>Download Geländeplan</a>
+        <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/gelaendeplan.jpg" alt="Geländeplan">
+        <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/gelaendeplan.jpg" download>Download Geländeplan</a>
 
     </section>
     <section class="hard-facts-fourth">

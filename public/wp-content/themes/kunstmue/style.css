@@ -230,6 +230,10 @@ main h1 {
   color: #DAAD29;
 }
 
+p {
+  line-height: 1.3rem;
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   main p {
     line-height: 20px;
@@ -576,7 +580,7 @@ main h1 {
   .timeline-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 2rem;
     padding: 3rem 0;
@@ -587,19 +591,13 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
   }
   .anreiseart {
     display: none;
   }
   .anreiseding {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 15%;
-    height: 100%;
+    display: none;
   }
   .anreisegrafik {
     height: 100%;
@@ -831,8 +829,8 @@ main h1 {
     gap: 2rem;
   }
   .plan {
-    width: 60%;
-    height: 80vh;
+    width: 70%;
+    height: auto;
     background-color: #E9E9E9;
   }
   .park-plan {
