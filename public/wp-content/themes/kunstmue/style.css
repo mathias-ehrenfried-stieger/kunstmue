@@ -1206,9 +1206,10 @@ p {
   .team-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 5rem;
+    width: 70%;
   }
   .person {
     display: flex;
@@ -1226,8 +1227,8 @@ p {
     font-weight: 400;
   }
   .person img {
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: auto;
   }
   .vorstand-container {
     display: flex;
@@ -1235,7 +1236,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 5rem;
+    padding: 5rem 0;
   }
   .big-heading {
     color: white;
@@ -1248,20 +1249,23 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #1E1E1E;
-    padding: 3rem;
+    padding: 3rem 0;
   }
-  .contact-content {
+  .contact-block .golden {
+    padding: 2rem 0;
+  }
+  .contact-block .golden p {
+    color: #DAAD29;
+  }
+  .contact-block .contact-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
     gap: 1.5rem;
     flex-direction: column;
-    width: 65%;
+    width: 70%;
     color: white;
-  }
-  .golden p {
-    color: #DAAD29;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {

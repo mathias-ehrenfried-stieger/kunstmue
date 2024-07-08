@@ -175,10 +175,11 @@
     .team-row{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 5rem;
+        gap: 5rem;      
         
+        width: 70%; 
         
     }
     .person{
@@ -197,8 +198,8 @@
         }
     }
     .person img{
-        width: 12rem;
-        height: 12rem;
+        width: 15rem;
+        height: auto;
     }
     .vorstand-container{
         display: flex;
@@ -206,7 +207,8 @@
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        padding: 5rem;
+        padding: 5rem 0;
+        
         
     }
     .big-heading{
@@ -221,7 +223,13 @@
         justify-content: center;
         align-items: center;
         background-color: #1E1E1E;
-        padding: 3rem;
+        padding: 3rem 0;
+        .golden{
+            p{
+            color: #DAAD29;
+           
+        }
+        padding: 2rem 0;
     }
     .contact-content{
         display: flex;
@@ -230,12 +238,9 @@
         text-align: left;
         gap: 1.5rem;
         flex-direction: column;
-        width: 65%;
+        width: 70%;
         color: white;
     }
-    .golden{
-        p{
-        color: #DAAD29;
-    }
+    
 }
 }
