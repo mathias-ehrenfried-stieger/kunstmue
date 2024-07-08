@@ -46,6 +46,8 @@
 
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/eddi.png" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/CG.jpg" alt="logos">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/s82.png" alt="logos">
+
   </div>
   </section>
   </main>
