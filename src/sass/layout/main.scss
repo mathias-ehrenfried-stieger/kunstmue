@@ -101,6 +101,8 @@ p{
   padding-bottom: 5rem;
   h1{
     padding-top: 3rem;
+    size: 1.5rem;
+    font-weight: 700;
   }
 
 }
@@ -110,6 +112,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .video-container iframe {

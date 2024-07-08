@@ -21,7 +21,7 @@
     <h2 class="big-heading">VORSTAND</h2>
     <div class="team-row">
     <div class="person">
-        <h3>Stephanie Unterberger</h3>
+        <h3>Stephie Unterberger</h3>
         <img class="vorstand-img" src="<?php echo get_template_directory_uri(); ?>/images/steffi.jpg" alt="placeholder">
         <h3>Obfrau</h3>
         <p>Marketing</p>

@@ -312,6 +312,8 @@ p {
   }
   main .below h1 {
     padding-top: 3rem;
+    size: 1.5rem;
+    font-weight: 700;
   }
   main .video-container {
     width: 53.1rem;
@@ -319,6 +321,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
   }
   main .video-container iframe {
     width: 100%;
