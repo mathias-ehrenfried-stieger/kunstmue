@@ -321,7 +321,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2rem;
+    padding: 2rem;
   }
   main .video-container iframe {
     width: 100%;
@@ -898,7 +898,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: stretch; /* Changed from center to stretch */
-    gap: 2rem;
+    gap: 5rem;
     padding: 5rem 0;
     height: 100vh; /* Ensure the container takes the full viewport height */
   }
@@ -906,39 +906,27 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Adjust to space-between for equal distribution */
-    align-items: flex-start;
-    flex: 1; /* Allow the column to take up available space */
+    align-items: center;
     height: 100%; /* Ensure it takes full height of its container */
-  }
-  .anreiseart h3 {
-    flex-grow: 1; /* Allow the h3 elements to grow and take up space equally */
-    margin: 0; /* Remove default margins for better alignment */
-    display: flex;
-    justify-content: flex-start; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
   }
   .anreisebeschreibung {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    flex: 1;
     gap: 2rem;
   }
   .anreiseding {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    width: 15%;
+    align-items: flex-start;
     height: 100%;
   }
   .anreisegrafik {
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    padding: 2rem 0;
+    height: 100%;
   }
   h3 {
     font-size: 1.5rem;
