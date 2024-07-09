@@ -1,3 +1,3 @@
 #!/bin/sh
-rm -rf ./public/wp-content/themes/marcus
+rm -rf ./public/wp-content/themes/kunstmue
 ./build.sh
