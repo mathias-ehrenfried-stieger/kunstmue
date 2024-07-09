@@ -719,6 +719,7 @@ p {
     align-items: center;
     background-color: #1E1E1E;
     color: white;
+    padding: 5rem 0;
   }
   .hard-facts-first h2 {
     font-size: 2rem;
@@ -769,7 +770,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 5rem 0;
   }
   .hard-facts-second h2 {
     font-size: 2rem;
@@ -827,7 +828,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 5rem 0;
     min-height: 80vh;
     gap: 2rem;
   }
@@ -848,7 +849,7 @@ p {
     align-items: center;
     min-height: 80vh;
     background-color: #E9E9E9;
-    padding: 2rem 0;
+    padding: 5rem 0;
   }
   .hard-facts-fourth-content {
     display: flex;
@@ -888,10 +889,9 @@ p {
     align-items: flex-start;
     min-height: 100vh;
     width: 70%;
-    background-color: #1E1E1E;
     color: white;
     flex-direction: column;
-    padding: 2rem 0;
+    padding: 5rem 0;
   }
   .timeline-container {
     display: flex;
@@ -899,7 +899,7 @@ p {
     justify-content: center;
     align-items: stretch; /* Changed from center to stretch */
     gap: 5rem;
-    padding: 5rem 0;
+    padding: 4rem 0;
     height: 100vh; /* Ensure the container takes the full viewport height */
   }
   .anreiseart {
@@ -939,7 +939,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding-bottom: 5rem;
   }
   .facts-parking h2 {
     color: white;
@@ -958,7 +958,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 5rem 0;
   }
   .facts-foodcorner h2 {
     color: black;
@@ -995,7 +995,7 @@ p {
     justify-content: center;
     align-items: center;
     min-height: 80vh;
-    padding: 4rem 0;
+    padding: 5rem 0;
   }
   .facts-kinderprogramm h2, .facts-kinderprogramm p, .facts-kinderprogramm ul {
     color: white;
