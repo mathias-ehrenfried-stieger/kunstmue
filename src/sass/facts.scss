@@ -405,20 +405,24 @@
         .hard-facts-second-container{
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             gap: 2rem;
             padding: 2rem 0;
+            width: 70%;
+            img{
+                width: 37%;
+                height: auto;
+            }
         }
     }
     .hard-facts-second-text{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 43%;
+        width: 38%;
         align-items: flex-start;
         gap: 1rem;
-        padding: 1rem 0;
         p{
             font-size: .8rem;
             font-weight: 400;
@@ -583,6 +587,10 @@
         align-items: flex-start;
         gap: 2rem;
         width: 70%;
+        img{
+            width: 100%;
+            height: auto;
+        }
     }
     .facts-foodcorner{
         background-color: #E9E9E9;
@@ -647,7 +655,7 @@
     .facts-kinderprogramm-container{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 3rem;
         width: 70%;
@@ -657,15 +665,13 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        gap: 2rem;
-        flex:1;
-        width: 70%;
+        gap: 3rem;
+        width: 45%;
 
     }
     .img-kinderprogramm{
-        width: 60%;
+        width: 35%;
         height: auto;
-        padding: 2rem 0;
     }
     .speis{
         width: 85%;

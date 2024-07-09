@@ -118,6 +118,10 @@ li:hover {
   :root {
     font-size: 23px;
   }
+  li {
+    line-height: 1.3rem;
+    font-size: 1rem;
+  }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   header {
@@ -403,12 +407,12 @@ p {
   footer ul a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 100;
   }
   footer .socials {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
   footer .socials:hover {
     transform: rotate(-5deg) scale(1.1);
@@ -788,19 +792,23 @@ p {
   .hard-facts-second .hard-facts-second-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 2rem 0;
+    width: 70%;
+  }
+  .hard-facts-second .hard-facts-second-container img {
+    width: 37%;
+    height: auto;
   }
   .hard-facts-second-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 43%;
+    width: 38%;
     align-items: flex-start;
     gap: 1rem;
-    padding: 1rem 0;
   }
   .hard-facts-second-text p {
     font-size: 0.8rem;
@@ -952,6 +960,10 @@ p {
     gap: 2rem;
     width: 70%;
   }
+  .facts-parking-container img {
+    width: 100%;
+    height: auto;
+  }
   .facts-foodcorner {
     background-color: #E9E9E9;
     display: flex;
@@ -1012,7 +1024,7 @@ p {
   .facts-kinderprogramm-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 3rem;
     width: 70%;
@@ -1022,14 +1034,12 @@ p {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 2rem;
-    flex: 1;
-    width: 70%;
+    gap: 3rem;
+    width: 45%;
   }
   .img-kinderprogramm {
-    width: 60%;
+    width: 35%;
     height: auto;
-    padding: 2rem 0;
   }
   .speis {
     width: 85%;
