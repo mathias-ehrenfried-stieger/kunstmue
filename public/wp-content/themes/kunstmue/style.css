@@ -239,6 +239,33 @@ p {
 }
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  .program h2 {
+    color: #DAAD29;
+  }
+  .green-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .underlined {
+    text-decoration: underline;
+  }
+  .front-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 0;
+    width: 80%;
+  }
   main p {
     line-height: 20px;
   }
@@ -287,6 +314,33 @@ p {
   }
 }
 @media (min-width: 37.5rem) {
+  .program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  .program h2 {
+    color: #DAAD29;
+  }
+  .green-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .underlined {
+    text-decoration: underline;
+  }
+  .front-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 0;
+    width: 65%;
+  }
   main .fake-button {
     display: flex;
     justify-content: center;
@@ -325,7 +379,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   main .video-container iframe {
     width: 100%;

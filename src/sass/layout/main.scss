@@ -13,6 +13,38 @@ p{
 }
 
 @include breakpoint(0, $mobile) {
+  
+  .program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    h2{
+      color: #DAAD29;
+    }
+    
+  }
+  .green-event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .underlined{
+    text-decoration: underline;
+  }
+
+
+  .front-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 0;
+    width: 80%;
+  }
+  
   main {
 
     p{
@@ -69,6 +101,37 @@ p{
 }
 
 @include breakpoint($desktop) {
+  .program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    h2{
+      color: #DAAD29;
+    }
+    
+  }
+  .green-event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .underlined{
+    text-decoration: underline;
+  }
+
+
+  .front-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 0;
+    width: 65%;
+  }
+
   main {
     
     .fake-button{
@@ -112,7 +175,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .video-container iframe {
