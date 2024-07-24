@@ -13,10 +13,10 @@
       <p>Samstag, 26. Juli 2024</p>
       <p>ab 10:00 Uhr: Frühschoppen</p>
       <p>ab 14:00 Uhr: Kinderprogramm</p>
-      <h4>Frühshoppen </h4>
-      <p class="underlined">Live Volksmusik & freies Musizieren</p>
+      <h4 class="underlined bigAndBold">Frühshoppen </h4>
+      <p>Live Volksmusik & freies Musizieren</p>
       <p>Volksmusikanten sind gerne eingeladen mitzumachen</p>
-      <p class="underlined">Verpflegung </p>
+      <p >Verpflegung </p>
       <div>
       <p>Kaffee & Kuchenbuffet</p>
       <p>Kesselheisse mit diversen Würstel und Gebäck</p>
@@ -24,7 +24,7 @@
       <p>Frisches Gebäck von Kurtis Cafe & Bäckerei</p>
       <p>diverse vegane und vegetarische Aufstriche</p>
       </div>
-      <h4>Kinderprogramm</h4>
+      <h4 class="underlined bigAndBold">Kinderprogramm</h4>
       <p>In Kooperation mit der Freiwilligen Feuerwehr Bad Goisern: </p>
       <ul>
         <li>Nostalgiespritze </li>

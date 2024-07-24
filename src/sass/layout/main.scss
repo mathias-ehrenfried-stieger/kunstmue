@@ -41,7 +41,7 @@ p{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 0;
+    padding: 3rem 0;
     width: 80%;
   }
   
@@ -116,6 +116,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E9E9E9;
   }
   .underlined{
     text-decoration: underline;
@@ -128,7 +129,7 @@ p{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 0;
+    padding: 5rem 0;
     width: 65%;
   }
 
@@ -166,6 +167,7 @@ p{
     padding-top: 3rem;
     size: 1.5rem;
     font-weight: 700;
+    text-align: left;
   }
 
 }
