@@ -16,6 +16,14 @@
     </div>
     </div>
     </section>
+    <section class="contact-block">
+        <div class="contact-content">
+        <h2 class="big-heading">Kontakt</h2>
+        <p>Allgemeine Anfragen: kunstmueverein@gmail.com</p>
+        <p>Booking Anfragen: booking@kunstmue.com</p>
+        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse!Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen!Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
+        </div>
+    </section>
     <section class="contact-rest">
     <div class="vorstand-container">
     <h2 class="big-heading">VORSTAND</h2>
@@ -61,18 +69,6 @@
     </div>
     </div>
     </div>
-    </section>
-    <section class="contact-block">
-        <div class="contact-content">
-        <h2 class="big-heading">Kontakt</h2>
-        <p>Allgemeine Anfragen: kunstmueverein@gmail.com</p>
-        <p>Booking Anfragen: booking@kunstmue.com</p>
-        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse!Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen!Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
-        <div class="golden">
-        <p>Booking Phase abgeschlossen!</p>
-        <p>Danke für euer Interesse, wir freuen uns auf eure Anmeldung im nächsten Jahr!</p>
-        </div>
-        </div>
     </section>
   </main>
  

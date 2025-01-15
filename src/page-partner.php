@@ -14,7 +14,7 @@
   <section class="partner-logo">
     <div class="partner-logo-container">
       
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/green.jpg" alt="logos">
+      <a href="https://www.greeneventsaustria.at/themen/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/logos/green.jpg" alt="logos"></a>
       <img class="umwelt-img" src="<?php echo get_template_directory_uri(); ?>/images/logos/umwelt.png" alt="logos">
       
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/Feuerwehr.JPG" alt="logos">

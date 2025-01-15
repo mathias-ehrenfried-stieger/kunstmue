@@ -238,7 +238,27 @@ p {
   line-height: 1.3rem;
 }
 
+.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+.dark h2 {
+  color: #DAAD29;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .program {
     display: flex;
     justify-content: center;
@@ -270,11 +290,8 @@ p {
     line-height: 20px;
   }
   main .hero {
-    background-image: url("./images/mobile.jpg");
     height: 86vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   main .below {
     background-color: #1e1e1e;
@@ -314,6 +331,11 @@ p {
   }
 }
 @media (min-width: 37.5rem) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .program {
     display: flex;
     justify-content: center;
@@ -353,11 +375,8 @@ p {
     text-decoration: none;
   }
   main .hero {
-    background-image: url("./images/Banner-desktop.svg");
     height: 86vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   main .below {
     background-color: #1e1e1e;
@@ -1589,7 +1608,7 @@ p {
     align-items: flex-start;
     gap: 2rem;
     color: black;
-    width: 80%;
+    width: 65%;
     padding: 5rem 0;
   }
   .partner-hero-text h1 {
@@ -1616,11 +1635,11 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5rem;
-    width: 80%;
+    width: 65%;
   }
   .partner-logo-container img {
-    max-width: 20rem;
-    max-height: 10rem;
+    max-width: 15rem;
+    max-height: 7rem;
   }
 }
 
