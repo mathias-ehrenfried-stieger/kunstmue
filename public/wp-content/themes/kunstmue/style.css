@@ -965,6 +965,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
   }
   .hard-facts-fifth {
     display: flex;
@@ -1121,6 +1122,54 @@ p {
     height: auto;
   }
 }
+@media (min-width: 37.4375rem) and (max-width: 81.25rem) {
+  .hard-facts-fifth-container {
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hard-facts-fifth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #1E1E1E;
+    flex-direction: column;
+    padding: 3 0rem;
+  }
+  .hard-facts-fifth h2 {
+    padding-top: 2rem;
+  }
+  .timeline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
+  }
+  .anreisebeschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .anreiseart {
+    display: none;
+  }
+  .anreiseding {
+    display: none;
+  }
+  .anreisegrafik {
+    display: none;
+  }
+  .mobile {
+    display: inline;
+  }
+}
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .contact-hero-container {
     height: 80vh;
@@ -1224,7 +1273,7 @@ p {
 }
 @media (min-width: 37.5rem) {
   .contact-hero-container {
-    height: 80vh;
+    min-height: 86vh;
     background-image: url("./images/background-contact.jpg");
     background-size: cover;
     background-position: center;

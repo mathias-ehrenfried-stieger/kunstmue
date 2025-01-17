@@ -285,6 +285,8 @@
     
 }
 
+
+
 @include breakpoint($desktop) {
     h2{
         font-size: 2rem;
@@ -513,6 +515,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-height: 100vh;
     }
     .hard-facts-fifth{
         display: flex;
@@ -676,6 +679,58 @@
     .speis{
         width: 85%;
         height: auto;
+    }
+    
+}
+@include breakpoint($mobile, 1300) {
+    .hard-facts-fifth-container{
+        background-color: #1E1E1E; 
+        color: white;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .hard-facts-fifth{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #1E1E1E;
+        flex-direction: column;
+        padding: 3 0rem;
+        h2{
+            padding-top: 2rem;
+        }
+
+    }
+    .timeline-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0;
+        
+    }
+    .anreisebeschreibung{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .anreiseart{
+        display: none;
+    }
+    .anreiseding{
+        display: none;
+    }
+    .anreisegrafik{
+        display: none;
+    }
+    .mobile{
+        display: inline;
     }
     
 }

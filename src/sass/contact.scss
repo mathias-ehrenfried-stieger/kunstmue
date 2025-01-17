@@ -114,7 +114,7 @@
 @include breakpoint($desktop) {
     .contact-hero-container
     {
-        height: 80vh;
+        min-height: 86vh;
         background-image: url('./images/background-contact.jpg');
         background-size: cover;
         background-position: center;
