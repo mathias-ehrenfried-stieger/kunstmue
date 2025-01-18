@@ -5,28 +5,19 @@
   <?php get_header(); ?>
   <main>
     <section class="contact-hero-container">
-    <div class="contact-hero">
-    <div class="contact-header">
-        <h1>TEAM</h1>
-        <h2>WERDE TEIL DER KUNSTMUE CREW</h2>
-    </div>
-    <div class="contact-hero-text">
-        <p class="contact-hero-paragraph">Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
-        <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
-    </div>
-    </div>
+    <h1>TEAM & KONTAKT</h1>
     </section>
-    <section class="contact-block">
+    <section class="contact-block dark">
         <div class="contact-content">
-        <h2 class="big-heading">Kontakt</h2>
+        <h2>Kontakt</h2>
         <p>Allgemeine Anfragen: kunstmueverein@gmail.com</p>
         <p>Booking Anfragen: booking@kunstmue.com</p>
-        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse!Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen!Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
+        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen!Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
         </div>
     </section>
-    <section class="contact-rest">
+    <section class="contact-rest dark">
     <div class="vorstand-container">
-    <h2 class="big-heading">VORSTAND</h2>
+    <h2>VORSTAND</h2>
     <div class="team-row">
     <div class="person">
         <h3>Stephie Unterberger</h3>
@@ -68,6 +59,19 @@
     </div>
     </div>
     </div>
+    </div>
+    </section>
+    <section class="contact-team dark">
+    <div class="team-container">
+        <div class="team-content">
+    <h2 class="big-heading">TEAM</h2>
+    <h3>WERDE TEIL DER KUNSTMUE CREW</h3>
+    <div class="contact-hero-text">
+        <p class="contact-hero-paragraph">Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
+        <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
+    </div>
+    </div>
+    <img class="team-img" src="<?php echo get_template_directory_uri(); ?>/images/background-contact.jpg" alt="placeholder">
     </div>
     </section>
   </main>
