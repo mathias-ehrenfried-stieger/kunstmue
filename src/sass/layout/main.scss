@@ -199,12 +199,12 @@ p{
 
 }
 .video-container {
-  width: 30rem*1.77;
-  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+  width: 60%;
+  height: 100%;
 }
 
 .video-container iframe {
