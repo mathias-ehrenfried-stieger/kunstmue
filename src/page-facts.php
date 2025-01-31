@@ -12,7 +12,7 @@
                     2 TAGE
                 </p>
                 <p>
-                    12 BANDS
+                    11 BANDS
                 </p>
             </div>
             <div>
@@ -47,22 +47,22 @@
         <div class="hard-facts-second-teaser">
             <h2>GRATIS CAMPING</h2>
             <p><span class="bold">Camping am Kunstmue Festival ist gratis.</span> Die Campingmöglichkeiten sind nicht weit vom Eingangsbereich. Die schattigen Zeltplätze findet ihr in einem kleinen Waldstück neben der erfrischenden Traun (Bademöglichkeit!). Außerdem stehen kostenlose Caravanplätze zur Verfügung.</p>
-            <p><span class="bold">Anmeldung vor Ort:</span> Anreise ist ab 14:00 Uhr möglich. Bitte kommt bei Ankunft zum Eingang, hier könnt ihr den Meldezettel ausfüllen und ihr bekommt kostenfreie Müllsäcke, welche ihr nach dem Festival wieder abgeben könnt. Camping beim Kunstmue Festival ist Ortstaxen befreit.</p>
             <p><span class="bold">Wichtiger Hinweis:</span> Bitte beachtet, dass absolutes Feuerverbot herrscht!</p>
         </div>
         <div class="hard-facts-second-container">
             <img src="<?php echo get_template_directory_uri(); ?>/images/camping.jpg" alt="Camping">
             <div class="hard-facts-second-text">
                 <h2>GRATIS CARAVAN</h2>
-                <p class="fake-button">Jetzt Caravanplatz sichern!</p>
+                <a href="mailto:kunstmueverein@gmail.com?subject=Reservierung Caravanplatz" class="btn">Jetzt Caravanplatz sichern!</a>
 
                 <p>Sende eine Email mit folgenden Infos an: kunstmueverein@gmail.com</p>
                 <ul>
                     <li>Name</li>
                     <li>Anzahl der Personen</li>
-                    <li>Anzahl der Caravans</li>
+                    <li>Größe der Fahrzeuge</li>
                 </ul>
-                <p>Ansprechperson: Julia Pomberger Bei Fragen vor Ort, gerne einfach anrufen! +43 676 4355456</p>
+                <p><span class="bold">Anmeldung vor Ort:</span> Anreise ist ab 14:00 Uhr möglich. Bitte kommt bei Ankunft zum Eingang, hier könnt ihr den Meldezettel ausfüllen und ihr bekommt kostenfreie Müllsäcke, welche ihr nach dem Festival wieder abgeben könnt. Camping beim Kunstmue Festival ist Ortstaxen befreit.</p>
+
                 <p>Sollte ein angemeldeter Platz doch nicht in Anspruch genommen werden, bitten wir um eine kurze Abmeldung.</p>
             </div>
         </div>

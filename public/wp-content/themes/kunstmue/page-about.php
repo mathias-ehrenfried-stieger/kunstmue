@@ -5,36 +5,50 @@
   <?php get_header(); ?>
   <main>
     <section class="about-hero">
-    <h1>Work in Progress</h1>
-    <p>Wir arbeiten gerade an dieser Seite. Bald findest du hier mehr Informationen über uns.</p>
+    <h1>Kunstmue Festival Bad Goisern<br>
+        Free Alternative Music Festival</h1>
     </section>
-    <section class="green-event">
-      <div class="front-page-container">
-      <h2>Das Kunstmue Festival ist ein offizielles Green Event:</h2>
-      <p>Bereits in den letzten Jahren haben wir auf den ressourcenschonenden Einsatz von Material, Wasser und Strom sowie auf die Vermeidung von Müll geachtet. Nun möchten wir unsere soziale und ökologische Verantwortung noch ernster nehmen und haben uns zum Green Event zertifizieren lassen. </p>
-      <h3>Was wir machen:</h3>
-      <p class="underlined">Klimaschonende Anreise:</p>
-      <p>Wir informieren euch über klimaschonende Anreise auf unserer Website und Social Media. Ihr könnt uns zu Fuß, mit dem Rad oder mit öffentlichen Verkehrsmittel gut erreichen. </p>
-      <p class="underlined">Ressourcenschonender Verbrauch:</p>
-      <p>Strom, Wasser, Energie und Material wird sorgsam verwendet. Alle Druckwerke wurden in geringer Auflage und teils auf umweltfreundlichem Papier gedruckt. </p>
-      <p class="underlined">Abfallvermeidung und -trennung:</p>
-      <p>Wir verwenden Mehrweggeschirr, Mehrwegbecher & -verpackungen. Es gibt ein Müllkonzept, welches dafür sorgt, dass jeglicher Abfall getrennt gesammelt wird. Camping Gäste bekommen kostenlose Müllsäcke, welche nach dem Festival wieder abgegeben werden können.</p>
-      <p class="underlined">Essen & Getränke:</p>
-      <p>Bio- und Fairtrade sowie regionale und saisonale Produkte, vegetarische & vegane Speisen werden geboten.</p>
-      <p class="underlined">Soziale Barrieren: </p>
-      <p>Wie immer gibt es freien Eintritt & gratis Camping. Gerne ist die Crew Menschen mit körperlichen Einschränkungen behilflich! Zudem haben wir heuer ein barrierefreies WC am Gelände. Wenn ihr euch unwohl oder belästigt fühlt, wendet euch an unsere Awareness Person Chrissi am Merchandise Stand.</p>
-      <h3>Was ihr machen könnt:</h3>
-      <p class="underlined">Klimaschonende Anreise:</p>
-      <p>Kommt zu Fuß, mit dem Rad, mit öffentlichen Verkehrsmitteln oder bildet Fahrgemeinschaften. </p>
-      <p class="underlined">Abfallvermeidung und -trennung:</p>
-      <p>Wir bitten um Abfallvermeidung und richtige Mülltrennung. Verwendet die ausgegebenen Müllsäcke am Campingplatz. Am Campingplatz herrscht absolutes Feuerverbot.</p>
-      <p class="underlined">Essen & Getränke:</p>
-      <p>Gönnt euch doch mal was Vegetarisches oder Veganes. Versucht unsere Bio Getränke und Speisen.</p> 
-      <p class="underlined">Soziale Barrieren:  </p>
-      <p>Wir bitten um respektvolles Miteinander! Wenn jemand Hilfe benötigt, gebt uns gerne Bescheid. Wenn ihr euch unwohl oder belästigt fühlt, endet euch an Chrissi, unsere Awareness Person am Merch Stand. </p>  
-      </div>
-    </section>
+      <section class="section__normal">
+        <div class="front-page-container">
+            <h2>Das Festival-Highlight in Bad Goisern</h2>
+            <p>– seit über 20 Jahren ein Muss für Jung & jung Gebliebene!</p>
+            <p>Seit mehr als zwei Jahrzehnten bringt das generationenübergreifende Festival Musikfans, Familien und Festival-Liebhaber zusammen – und das mit ordentlich Herzblut und Leidenschaft. Längst hat sich das Kunstmue über die Grenzen des Salzkammerguts hinaus einen Namen gemacht und ist ein fester Bestandteil der freien Kulturszene in Österreich!</p>
+            <p>Freut euch auf <span class="bold">11 Bands aus verschiedensten Genres</span>, ein prall gefülltes Rahmenprogramm und jede Menge Festival Vibes! Natürlich darf auch das kulinarische Verwöhnprogramm nicht fehlen: Regionale Gastronomen kredenzen Schmankerl für jeden Geschmack
+                – von herzhaft bis veggie, von klassisch bis bio!
+                Am Samstag heißt es dann: <span class="bold">Frühschoppen</span> á la Goisern - mit dampfender Kesselheiße
+                und unseren örtlichen Volksmusikanten kommt hier echte Wirtshausstimmung auf.
+                Für die Kids gibt’s ein liebevoll gestaltetes <span class="bold">Kinderprogramm</span> in Kooperation mit der Freiwilligen Feuerwehr Bad Goisern, während sich Naschkatzen beim
+                legendären <span class="bold">Kaffee- & Kuchenbuffet</span> austoben können. </p>
+            <p>Und das Beste? <span class="bold"> Freier Eintritt und gratis Camping!</span>
+                Möglich gemacht durch die unermüdlichen ehrenamtlichen Helfer und Vereinsmitglieder, die mit vollem Einsatz für ein unvergessliches Festival sorgen.</p>
+            <p>Komm vorbei und feier mit uns!</p>
+        </div>
+      </section>
+      <section class="section__normal dark">
+        <div class="front-page-container">
+            <h2>Geschichte</h2>
+            <p>
+                <span class="bold">2003 – Der Startschuss für ein legendäres Musikfestival</span><br>
+                Was als Idee von Florian Razocha und Christoph Gasteiger begann, wurde 2003 zur Realität: Ein Musikfestival in Bad Goisern! Von Anfang an stand fest: Regionale Bands sollen die Bühne erobern und lokalen Talenten eine Plattform geboten werden.
+                Doch das war nicht alles – freier Eintritt und gratis Camping sollten das Festival für alle zugänglich machen. Die wachsenden Besucherzahlen seit der ersten Ausgabe beweisen,
+                dass das Konzept genau ins Schwarze traf. Schon damals zeigte das Kunstmue-Team ein feines Gespür für gute Musik und buchte Bands, die später zu den Größen der österreichischen Musikszene aufsteigen sollten – darunter Bilderbuch und Krautschädl.
+            </p>
+            <p>
+                <span class="bold">2011 – Ein neuer Meilenstein: Der Kunstmue Veranstaltungsverein</span><br>
+                2011 wurde das Festival auf zwei Tage ausgeweitet – ein entscheidender Schritt! Im selben Jahr gründete das Organisationsteam den Kunstmue Veranstaltungsverein und stellte sich auf eigene Beine. Was das Festival bis heute besonders macht? Hier geht es nicht um Profit, sondern um pure Leidenschaft für Musik und Gemeinschaft! Mit den Jahren kamen immer mehr fleißige Helfer und engagierte Vereinsmitglieder dazu, und das Festival wurde über die Region hinaus bekannt. Das musikalische Konzept? Ganz einfach: Lokale Acts teilen sich die Bühne mit etablierten Künstlern aus ganz Österreich und dem benachbarten Ausland.
+            </p>
+            <p>
+                <span class="bold">2023 – 20.-jähiges Jubiläum & neuer Vorstand</span><br>
+                2023 markierte einen Wendepunkt: Zum 20-jährigen Jubiläum des Kunstmue Festivals übergab das langjährige Vorstandsteam seine Ämter an die neue Generation weiter.
+                Sechs hochmotivierte junge Frauen, allesamt eingefleischte Kunstmue-Fans, übernahmen das Steuer. Mit der Unterstützung von Florian Razocha, Christoph Gasteiger und erfahrenen Crewmitgliedern gelang eine nahtlose Übergabe. Besonders stolz war man auf eine Premiere: 2023 wurde das Kunstmue Festival erstmals als „Green Event“ ausgezeichnet – ein weiterer Beweis dafür, dass das Festival nicht nur musikalisch, sondern auch nachhaltig in die Zukunft blickt.
+            </p>
+            <p>
+                Von einer kleinen Idee zum Kultfestival – und die Reise geht weiter! Stay tuned.
+            </p>
 
+        </div>
+
+      </section>
   </main>
  
 

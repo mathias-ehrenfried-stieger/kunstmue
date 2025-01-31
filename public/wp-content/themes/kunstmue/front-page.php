@@ -4,7 +4,7 @@
   <main>
     <section class="about-hero dark">
       <div class="centered">
-      <img class="logo-big" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Logo">
+      <img class="logo-front-page" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Logo">
       <h2>Save the date</h2>
       <h2>25. - 26. Juli 2025</h2>
       </div>

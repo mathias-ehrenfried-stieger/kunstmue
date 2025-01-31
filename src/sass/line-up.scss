@@ -60,8 +60,7 @@
     #line-up{
 
         h1,h2{
-            color: white;
-            font-weight: 700;  
+            font-weight: 700;
         }
         h1{
             font-size: 3rem;
@@ -118,5 +117,21 @@
         }
 
     }
-    
+    .hover-none li:hover{
+        transform: none;
+        color: black;
+
+    }
+    .hover-none{
+        list-style-type: circle;
+        padding: 0 1rem;
+    }
+    .img-big {
+        width: 85%;
+        height: auto;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
 }

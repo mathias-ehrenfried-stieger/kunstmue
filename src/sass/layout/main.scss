@@ -4,9 +4,22 @@ main {
  h1{
   text-align: center;
   font-size: 2rem;
-  color: #DAAD29
+  color: $gold;
 }
-  
+  .pd-4{
+    padding: 1rem;
+  }
+  .like-h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .section__normal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 p{
   line-height: 1.3rem;
@@ -62,6 +75,14 @@ p{
     align-items: flex-start;
     gap: 1rem;
     padding: 3rem 0;
+    width: 80%;
+  }
+  .container__basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
     width: 80%;
   }
   
@@ -136,7 +157,11 @@ p{
     h2{
       color: #DAAD29;
     }
-    
+  }
+  .logo-front-page{
+    height: 6rem;
+    width: auto;
+    color: $gold;
   }
   .green-event{
     display: flex;
@@ -156,6 +181,14 @@ p{
     align-items: flex-start;
     gap: 1rem;
     padding: 5rem 0;
+    width: 65%;
+  }
+  .container__basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
     width: 65%;
   }
 
