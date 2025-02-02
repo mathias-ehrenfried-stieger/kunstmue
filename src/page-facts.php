@@ -134,16 +134,8 @@
         <div class="facts-foodcorner-container">
             <h2>FOODCORNER DER D´SPEIS</h2>
             <img class="speis" src="<?php echo get_template_directory_uri(); ?>/images/dspeis.jpg" alt="Parkinglot">
-            <p>In unserem erweitertem Foodcorner findet ihr heuer Foodtrucks von d’Speis aus St. Wolfgang. Sandro, Eigentümer und Koch mit Herz und Seele verwöhnt euch mit frischen, regionalen und ausgewählten Bio Produkten. Qualitätsfleisch aus der Region und vegetarischen sowie vegane Gerichte stehen auf der Speisekarte.
-                Lasst euch kulinarisch verwöhnen!</p>
-
-            <!-- <div class="facts-foodcorner-below">
-                <div class="facts-foodcorner-below-text">
-                    <h2>Frühstücken & Frühshoppen</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
-                </div>
-                <img class="img-foodcorner" src="<?php echo get_template_directory_uri(); ?>/images/eingang.jpg"" alt=" Freier Eintritt">
-            </div> -->
+            <p>In unserem Foodcorner erwarten euch die köstlichen Spezialitäten von d’Speis aus St. Wolfgang! Sandro, Koch aus Leidenschaft, und seine Crew verwöhnen euch mit frischen, regionalen und ausgewählten Bio-Produkten. Ob saftiges Qualitätsfleisch aus der Region, kreative vegetarische Highlights oder vegane Leckerbissen – die Speisekarte bietet für jeden Geschmack etwas.
+            </p>
         </div>
     </section>
 

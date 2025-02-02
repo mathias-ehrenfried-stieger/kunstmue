@@ -23,7 +23,7 @@
     </div> 
     </div>
   </section>
-  <section class = "section__normal pd-4">
+  <section class = "section__normal pd-16-tb">
       <h2>Programm 2025</h2>
       <div class="container__basic">
           <h3>Freitag, 25. Juli 2025
