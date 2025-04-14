@@ -12,7 +12,8 @@
         <h2>Kontakt</h2>
         <p>Allgemeine Anfragen: kunstmueverein@gmail.com</p>
         <p>Booking Anfragen: booking@kunstmue.com</p>
-        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen!Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
+        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen! Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
+        <p class="golden-text bigAndBold">BOOKING CLOSED</p>
         </div>
     </section>
     <section class="contact-rest dark">
