@@ -15,6 +15,8 @@ set :keep_releases, '3'
 set :shared_dirs, fetch(:shared_dirs, []).push('public/wp-content/uploads')
 set :shared_files, fetch(:shared_files, []).push('wp-config.php', 'public/.htaccess')
 
+# Combine shared_dirs and shared_files to populate shared_paths
+set :shared_paths, fetch(:shared_dirs) + fetch(:shared_files)
 
 # Put any custom commands you need to run at setup
 # All paths in `shared_dirs` and `shared_paths` will be created on their own.
