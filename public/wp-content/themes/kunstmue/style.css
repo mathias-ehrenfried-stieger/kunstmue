@@ -262,7 +262,7 @@ p {
 }
 
 .golden-text {
-  color: #DAAD29;
+  color: #DAAD29 !important;
 }
 
 .dark {
@@ -476,6 +476,10 @@ p {
   }
   main .bigAndBold {
     font-size: 1.5rem;
+    font-weight: 700;
+  }
+  main .bigerAndBolder {
+    font-size: 2.5rem;
     font-weight: 700;
   }
   .mobile {
@@ -1224,10 +1228,31 @@ p {
     display: inline;
   }
 }
+.adress-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.contact-block p {
+  color: black;
+}
+.contact-block h2 {
+  color: #DAAD29;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  transform: rotate(-35deg);
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .contact-hero-container {
     height: 80vh;
-    background-image: url("./images/Kunstmue-ladies.jpg");
+    background-image: url("./images/contact-header.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1305,8 +1330,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1E1E1E;
-    color: white;
     padding-bottom: 3rem;
   }
   .golden {
@@ -1339,7 +1362,7 @@ p {
 @media (min-width: 37.5rem) {
   .contact-hero-container {
     min-height: 86vh;
-    background-image: url("./images/Kunstmue-ladies.jpg");
+    background-image: url("./images/contact-header.jpg");
     background-size: cover;
     background-position: top;
     display: flex;
@@ -1445,11 +1468,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1E1E1E;
     padding: 3rem 0;
-  }
-  .contact-block .golden {
-    padding: 2rem 0;
   }
   .contact-block .golden p {
     color: #DAAD29;
@@ -1463,6 +1482,7 @@ p {
     flex-direction: column;
     width: 70%;
     color: white;
+    padding: 2rem 0;
   }
   .contact-team {
     display: flex;
@@ -1593,6 +1613,14 @@ p {
     gap: 2rem;
     width: 80%;
   }
+  .img-big {
+    width: 85%;
+    height: auto;
+  }
+  .img-big img {
+    width: 100%;
+    height: auto;
+  }
 }
 @media (min-width: 37.5rem) {
   #line-up h1, #line-up h2 {
@@ -1674,7 +1702,7 @@ p {
     gap: 2rem;
   }
   .about-hero h1 {
-    color: white;
+    color: #DAAD29;
     font-size: 2rem;
     text-align: center;
   }
@@ -1706,6 +1734,11 @@ p {
     color: white;
     font-size: 1.5rem;
     text-align: center;
+  }
+  .img-about {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -1806,6 +1839,78 @@ p {
   .partner-logo-container img {
     max-width: 15rem;
     max-height: 7rem;
+  }
+}
+.arrival-hero {
+  height: 85vh;
+  background-image: url("./images/baden.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.arrival-hero h1 {
+  color: #DAAD29;
+  text-align: center;
+  font-weight: 700;
+}
+
+.row-80 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80%;
+}
+.row-80 img {
+  max-width: 60%;
+  height: auto;
+}
+
+.container__basic__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 80%;
+}
+
+.pd5 {
+  padding: 5rem 0;
+}
+
+.col__basic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  .arrival-hero h1 {
+    font-size: 2rem;
+  }
+  .row-80 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  .row-80 img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 37.5rem) {
+  .arrival-hero h1 {
+    font-size: 3rem;
   }
 }
 
