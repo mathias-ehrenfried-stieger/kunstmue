@@ -53,6 +53,15 @@
         width: 80%;
     }
 
+    .img-big{
+        width: 85%;
+        height: auto;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
 }
 
 @include breakpoint($desktop) {

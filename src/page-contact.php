@@ -7,15 +7,44 @@
     <section class="contact-hero-container">
     <h1>TEAM & KONTAKT</h1>
     </section>
-    <section class="contact-block dark">
+    <section class="contact-block">
         <div class="contact-content">
-        <h2>Kontakt</h2>
-        <p>Allgemeine Anfragen: kunstmueverein@gmail.com</p>
-        <p>Booking Anfragen: booking@kunstmue.com</p>
-        <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen! Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
-        <p class="golden-text bigAndBold">BOOKING CLOSED</p>
+            <h2>Kontakt</h2>
+            <div class="adress-block">
+                <p>Kunstmue Festival</p>
+                <p>Gschwandt 115</p>
+                <p>4822 Bad Goisern am Hallstättersee</p>
+                <p><b>Allgemeine Anfragen:</b> kunstmueverein@gmail.com</p>
+            </div>
+            <div class="adress-block">
+                <p>Rechnungsadresse</p>
+                <p>Kunstmue Veranstaltungsverein</p>
+                <p>Lasern 106</p>
+                <p>4822 Bad Goisern am Hallstättersee</p>
+            </div>
+
+        <div class="contact-content">
+        <h2>Booking</h2>
+            <p><b>Booking Anfragen:</b> booking@kunstmue.com</p>
+            <p class="golden-text bigerAndBolder overlay">BOOKING CLOSED</p>
+            <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen! Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
+
+        </div>
         </div>
     </section>
+      <section class="contact-team dark">
+          <div class="team-container">
+              <div class="team-content">
+                  <h2 class="big-heading">TEAM</h2>
+                  <h3>WERDE TEIL DER KUNSTMUE CREW</h3>
+                  <div class="contact-hero-text">
+                      <p class="contact-hero-paragraph">Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
+                      <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
+                  </div>
+              </div>
+              <img class="team-img" src="<?php echo get_template_directory_uri(); ?>/images/background-contact.jpg" alt="placeholder">
+          </div>
+      </section>
     <section class="contact-rest dark">
     <div class="vorstand-container">
     <h2>VORSTAND</h2>
@@ -27,8 +56,8 @@
         <p>Marketing</p>
     </div>
     <div class="person">
-        <h3>Julia Pomberger</h3>
-        <img class="vorstand-img" src="<?php echo get_template_directory_uri(); ?>/images/julie.jpg" alt="placeholder">
+        <h3>Mathias Stieger</h3>
+        <img class="vorstand-img" src="<?php echo get_template_directory_uri(); ?>/images/affe.jpg" alt="placeholder">
         <h3>Obfrau Stv.</h3>
         <p>Facility</p>
     </div>
@@ -53,26 +82,13 @@
         <p>Administration</p>
     </div>
     <div class="person">
-        <h3>Simone Rainer</h3>
-        <img class="vorstand-img" src="<?php echo get_template_directory_uri(); ?>/images/simo.jpg" alt="placeholder">
+        <h3>Darko Devetakovic</h3>
+        <img class="vorstand-img" src="<?php echo get_template_directory_uri(); ?>/images/Taco.jpg" alt="placeholder">
         <h3>Schriftführerin Stv.</h3>
         <p>Artist Care</p>
     </div>
     </div>
     </div>
-    </div>
-    </section>
-    <section class="contact-team dark">
-    <div class="team-container">
-        <div class="team-content">
-    <h2 class="big-heading">TEAM</h2>
-    <h3>WERDE TEIL DER KUNSTMUE CREW</h3>
-    <div class="contact-hero-text">
-        <p class="contact-hero-paragraph">Unser Verein besteht aus vielen engagierten freiwilligen Helfern und Helferinnen, die das Kunstmue Festival seit über 20 Jahren möglich machen. Als Teil der Crew erhältst du Zugang zum exklusiven Crewbereich, in dem Freigetränke und Snacks auf dich warten. Es ist auch eine tolle Gelegenheit, neue Leute kennenzulernen und hautnah zu erleben, wie ein Musikfestival auf die Beine gestellt wird. Möchtest du auch ein Teil der Kunstmue Family werden?  Dann melde dich bei uns, wir freuen uns über jede helfende Hand!</p>
-        <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
-    </div>
-    </div>
-    <img class="team-img" src="<?php echo get_template_directory_uri(); ?>/images/background-contact.jpg" alt="placeholder">
     </div>
     </section>
   </main>

@@ -35,7 +35,7 @@ p{
 }
 
 .golden-text{
-  color: $gold;
+  color: $gold !important;
 }
 .dark{
   background-color: #1e1e1e;
@@ -282,6 +282,10 @@ p{
   font-size: 1.5rem;
   font-weight: 700;
 }
+    .bigerAndBolder{
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
 }
 .mobile{
   display: none;

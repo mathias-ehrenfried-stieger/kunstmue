@@ -1,0 +1,78 @@
+
+.arrival-hero{
+    height: 85vh;
+    background-image: url('./images/baden.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h1{
+        color: $gold;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+.row-80{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    img{
+        max-width: 60%;
+        height: auto;
+    }
+}
+.container__basic__center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+}
+
+.pd5{
+    padding: 5rem 0;
+}
+
+.col__basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+@include breakpoint(0, $mobile) {
+    .arrival-hero{
+
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .row-80{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@include breakpoint($desktop) {
+    .arrival-hero{
+        h1{
+            font-size: 3rem;
+        }
+    }
+}

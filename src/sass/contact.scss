@@ -1,8 +1,31 @@
+
+.adress-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem
+}
+.contact-block{
+   p{
+       color: black;
+   }
+   h2{
+        color: $gold;
+   }
+}
+
+.overlay{
+    position: relative;
+    z-index: 1;
+    transform: rotate(-35deg);
+}
+
 @include breakpoint(0, $mobile) {
     .contact-hero-container
     {
         height: 80vh;
-        background-image: url('./images/Kunstmue-ladies.jpg');
+        background-image: url('./images/contact-header.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
@@ -85,8 +108,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #1E1E1E;
-        color: white;
         padding-bottom: 3rem;
 
     }
@@ -124,7 +145,7 @@
     .contact-hero-container
     {
         min-height: 86vh;
-        background-image: url('./images/Kunstmue-ladies.jpg');
+        background-image: url('./images/contact-header.jpg');
         background-size: cover;
         background-position: top;
         display: flex;
@@ -238,14 +259,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #1E1E1E;
         padding: 3rem 0;
         .golden{
             p{
             color: #DAAD29;
-           
         }
-        padding: 2rem 0;
     }
     .contact-content{
         display: flex;
@@ -256,6 +274,7 @@
         flex-direction: column;
         width: 70%;
         color: white;
+        padding: 2rem 0;
     }
 
 }

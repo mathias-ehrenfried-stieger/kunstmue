@@ -9,22 +9,20 @@ set :branch, 'main'
 set :user, 'admin'
 set :keep_releases, '3'
 
-
-
-# shared dirs and files will be symlinked into the app-folder by the 'deploy:link_shared_paths' step.
+# Shared dirs and files will be symlinked into the app-folder by the 'deploy:link_shared_paths' step.
 set :shared_dirs, fetch(:shared_dirs, []).push('public/wp-content/uploads')
 set :shared_files, fetch(:shared_files, []).push('wp-config.php', 'public/.htaccess')
 
 # Combine shared_dirs and shared_files to populate shared_paths
 set :shared_paths, fetch(:shared_dirs) + fetch(:shared_files)
 
-# Put any custom commands you need to run at setup
+# Put any custom commands you need to run at setup.
 # All paths in `shared_dirs` and `shared_paths` will be created on their own.
 task :setup do
   command %[mkdir -p "#{fetch(:deploy_to)}/shared/public/wp-content/uploads"]
 end
 
-desc "Deploys the currsudoent version to the server."
+desc "Deploys the current version to the server."
 task :deploy do
   deploy do
     invoke :'git:clone'

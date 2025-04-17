@@ -22,7 +22,11 @@
             <p>Und das Beste? <span class="bold"> Freier Eintritt und gratis Camping!</span>
                 Möglich gemacht durch die unermüdlichen ehrenamtlichen Helfer und Vereinsmitglieder, die mit vollem Einsatz für ein unvergessliches Festival sorgen.</p>
             <p>Komm vorbei und feier mit uns!</p>
+            <div class="img-big">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/early-image.jpg" alt="Kunstmue Festival">
+            </div>
         </div>
+
       </section>
       <section class="section__normal dark">
         <div class="front-page-container">

@@ -9,6 +9,7 @@ cp ./src/page-facts.php ./public/wp-content/themes/kunstmue
 cp ./src/page-galerie.php ./public/wp-content/themes/kunstmue
 cp ./src/page-imprint.php ./public/wp-content/themes/kunstmue
 cp ./src/page-agb.php ./public/wp-content/themes/kunstmue
+cp ./src/page-arrival.php ./public/wp-content/themes/kunstmue
 
 cp ./src/front-page.php ./public/wp-content/themes/kunstmue
 cp ./src/favicons/*.* ./public/wp-content/themes/kunstmue
