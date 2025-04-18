@@ -1926,10 +1926,10 @@ p {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 100%;
+    width: 80%;
   }
   .row-80 img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
   }
   .row-70 {
@@ -1938,6 +1938,7 @@ p {
     align-items: center;
     gap: 2rem;
     width: 100%;
+    padding: 2rem 2rem;
   }
   .row-70 img {
     max-width: 100%;
