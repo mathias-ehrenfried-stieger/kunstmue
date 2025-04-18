@@ -81,7 +81,20 @@
             </p>
         </div>
     </section>
+    <section class="frühschoppen">
+        <div class="centered">
+            <div class="row-70 centered">
+                <div class="frühschoppen-text">
+                    <h2>FRÜHSCHOPPEN</h2>
+                    <p>Am Samstag geht’s urig los: Mit dampfender Kesselheiße und den goiserer Volksmusikanten kommt Bierzeltstimmung auf!
+                        Hier ist jeder eingeladen, sich beim gemeinsamen Musizieren einzubringen.
+                        Und wenn die Truppe dann auch noch durch den Campingplatz marschiert, ist es vorbei mit der Ruhe – die Camper werden als erstes geweckt!</p>
+                </div>
+                <img class="img-frühschoppen" src="<?php echo get_template_directory_uri(); ?>/images/frühschoppen.JPG" alt=" Freier Eintritt">
+            </div>
 
+        </div>
+    </section>
     <section class="facts-kinderprogramm">
         <div class="facts-kinderprogramm-container">
             <img class="img-kinderprogramm" src="<?php echo get_template_directory_uri(); ?>/images/Kinderprogram.jpg"" alt=" Freier Eintritt">
@@ -96,6 +109,18 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <section class="centered">
+    <div class="row-70 centered">
+       <div>
+        <h2>Merch</h2>
+        <p>
+            Deine Erinnerung vom Kunstmue Festival!
+            Besucht unseren Merchandise-Stand direkt am Festivalgelände und sichert euch exklusive Produkte, die es nur hier gibt! Limitiertes Angebot, also schlagt schnell zu! Zusätzlich findet ihr coole Merch-Artikel von den Bands – perfekt, um eure Festival-Erinnerungen festzuhalten. Holt euch das Jubiläums-T-Shirt, Hoodies, Lenyards und viele weitere tolle Sachen!
+        </p>
+       </div>
+        <img class="merch" src="<?php echo get_template_directory_uri(); ?>/images/merch.jpg" alt="Merch">
+    </div>
     </section>
 </main>
 

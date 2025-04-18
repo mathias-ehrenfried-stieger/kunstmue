@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Kunstmue
 Author: Mathias
@@ -227,6 +228,9 @@ li:hover {
   .menu a:hover {
     color: #DAAD29;
   }
+}
+main h1, main h2, main h3 {
+  color: #DAAD29;
 }
 main h1 {
   text-align: center;
@@ -545,6 +549,13 @@ p {
     transform: rotate(-5deg) scale(1.1);
   }
 }
+.frühschoppen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   h2 {
     font-size: 2rem;
@@ -1871,6 +1882,20 @@ p {
   height: auto;
 }
 
+.row-70 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  padding: 5rem 0;
+}
+.row-70 img {
+  max-width: 60%;
+  height: auto;
+}
+
 .container__basic__center {
   display: flex;
   flex-direction: column;
@@ -1904,6 +1929,17 @@ p {
     width: 100%;
   }
   .row-80 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .row-70 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  .row-70 img {
     max-width: 100%;
     height: auto;
   }

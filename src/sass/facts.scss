@@ -1,3 +1,10 @@
+.frühschoppen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @include breakpoint(0, $mobile) {
     h2{
         font-size: 2rem;

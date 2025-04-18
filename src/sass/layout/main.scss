@@ -1,4 +1,7 @@
 main {
+  h1,h2,h3{
+    color: $gold;
+  }
 
  // allgemeine Style
  h1{
@@ -41,7 +44,7 @@ p{
   background-color: #1e1e1e;
   color: white;
   h2{
-    color: #DAAD29;
+    color: $gold;
   }
 }
 .centered{
