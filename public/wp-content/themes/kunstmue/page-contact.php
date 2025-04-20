@@ -42,7 +42,7 @@
                       <a href="#" class="btn"><p class="bigAndBold">Ich will auch dabei sein! </p><p>-> kunstmueverein@gmail.com</p></a>
                   </div>
               </div>
-              <img class="team-img" src="<?php echo get_template_directory_uri(); ?>/images/background-contact.jpg" alt="placeholder">
+             <!-- <img class="team-img" src="<?php echo get_template_directory_uri(); ?>/images/background-contact.jpg" alt="placeholder"> -->
           </div>
       </section>
     <section class="contact-rest dark">

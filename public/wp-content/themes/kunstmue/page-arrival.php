@@ -5,8 +5,8 @@
 <?php get_header(); ?>
 <main>
     <section class="arrival-hero">
-        <h1>Kunstmue Festival Bad Goisern<br>
-            Free Alternative Music Festival</h1>
+        <h1>KUNSTMUE FESTIVAL BAD GOISERN<br>
+            FREE AKTERNATIVE MUSIC FESTIVAL</h1>
     </section>
     <section class="hard-facts-fourth">
         <div class="hard-facts-fourth-content">
