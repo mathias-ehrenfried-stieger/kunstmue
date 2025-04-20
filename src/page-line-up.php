@@ -17,9 +17,10 @@
   <section class="line-up-container dark">
     <div>
     <div class="line-up-content">
-    <!-- <img class="plan" src="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" alt="Geländeplan">   
-    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" download>Download Time-Table</a> -->
-    <h2>Stay Tuned for the 2025 Line Up coming soon</h2>
+    <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" alt="Line Up">   
+
+    <img class="plan mobile" src="<?php echo get_template_directory_uri(); ?>/images/line-up-mobile.jpg" alt="Line Up"> 
+    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" download>Download Time-Table</a>
     </div> 
     </div>
   </section>

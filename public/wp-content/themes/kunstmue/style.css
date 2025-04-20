@@ -329,8 +329,11 @@ p {
     line-height: 20px;
   }
   main .hero {
+    background-image: url("./images/line-up-mobile.jpg");
     height: 86vh;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   main .below {
     background-color: #1e1e1e;
@@ -427,8 +430,11 @@ p {
     text-decoration: none;
   }
   main .hero {
+    background-image: url("./images/line-up-desktop.jpg");
     height: 86vh;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   main .below {
     background-color: #1e1e1e;

@@ -25,8 +25,8 @@
 
         <div class="contact-content">
         <h2>Booking</h2>
-            <p><b>Booking Anfragen:</b> booking@kunstmue.com</p>
-            <p class="golden-text bigerAndBolder overlay">BOOKING CLOSED</p>
+           <!-- <p><b>Booking Anfragen:</b> booking@kunstmue.com</p>-->
+            <p class="golden-text bigAndBold">BOOKING CLOSED</p>
             <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen! Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.Booking Anfragen für das Kunstmue Festival werden ab Oktober des vorhergehenden Jahres entgegen genommen.</p>
 
         </div>

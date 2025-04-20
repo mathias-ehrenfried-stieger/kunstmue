@@ -107,11 +107,11 @@ p{
       line-height: 20px;
     }
     .hero{
-      //background-image: url('./images/mobile.jpg');
+      background-image: url('./images/line-up-mobile.jpg');
       height: 86vh; 
       width: 100%; 
-      //background-repeat: no-repeat;
-      //background-size: cover;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .below{
@@ -222,11 +222,11 @@ p{
     }
     
 .hero{
-    //background-image: url('./images/Banner-desktop.svg');
+    background-image: url('./images/line-up-desktop.jpg');
     height: 86vh; 
     width: 100%;
-
-   // background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     //background-size: cover;
 } 
 .below{
