@@ -10,7 +10,6 @@
     <section class = "intro">
       <div class="front-page-container">
         <h2>Willkommen beim Kunstmue Festival Bad Goisern!</h2>
-        <h3 class="bold">Wir arbeiten gerade am Line-Up und Programm 2025.</h3>
         <p>Auch heuer rocken wieder zahlreiche Bands verschiedenster Genres die Festival Bühne, zudem dürft ihr
 euch wieder auf das Frühschoppen mit unseren örtlichen Volksmusikanten, 
 ein buntes Kinderprogramm, köstliche regionale Speisen 
