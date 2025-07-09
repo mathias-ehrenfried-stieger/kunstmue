@@ -229,13 +229,13 @@ li:hover {
     color: #DAAD29;
   }
 }
-main h1, main h2, main h3 {
+main h2, main h3 {
   color: #DAAD29;
 }
 main h1 {
   text-align: center;
   font-size: 2rem;
-  color: #DAAD29;
+  color: white;
 }
 main .pd-4 {
   padding: 1rem;
@@ -284,11 +284,34 @@ p {
   align-items: center;
 }
 
+@media (min-width: 37.4375rem) and (max-width: 37.5rem) {
+  .mobile {
+    display: none;
+  }
+}
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .intro {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+  .hero-fp-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+  }
+  .hero-fp-header h2 {
+    color: white;
+  }
+  .hero-fp-text {
+    width: 80%;
+    text-align: center;
   }
   .program {
     display: flex;
@@ -330,7 +353,7 @@ p {
   }
   main .hero {
     background-image: url("./images/line-up-mobile.jpg");
-    height: 86vh;
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -377,6 +400,25 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0;
+  }
+  .hero-fp-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+  }
+  .hero-fp-header h2 {
+    font-size: 2rem;
+    color: white;
+  }
+  .hero-fp-text {
+    width: 60%;
+    text-align: center;
   }
   .program {
     display: flex;
@@ -431,10 +473,11 @@ p {
   }
   main .hero {
     background-image: url("./images/line-up-desktop.jpg");
-    height: 86vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   main .below {
     background-color: #1e1e1e;
@@ -570,7 +613,7 @@ p {
     text-align: left;
   }
   .fact-hero {
-    height: 80vh;
+    height: 90vh;
     background-image: url("./images/background-facts.jpg");
     background-size: cover;
     background-position: center;
@@ -837,7 +880,7 @@ p {
     text-align: left;
   }
   .fact-hero {
-    height: 80vh;
+    height: 90vh;
     background-image: url("./images/background-facts.jpg");
     background-size: cover;
     background-position: center;
@@ -845,7 +888,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
   }
   .fact-hero h1 {
     color: white;
@@ -857,7 +899,15 @@ p {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
+  }
+  .hero-fact-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
   }
   .hero-fact-text {
     display: flex;
@@ -1242,7 +1292,7 @@ p {
     display: none;
   }
   .mobile {
-    display: inline;
+    display: none;
   }
 }
 .adress-block {
@@ -1268,7 +1318,7 @@ p {
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .contact-hero-container {
-    height: 80vh;
+    height: 90vh;
     background-image: url("./images/contact-header.jpg");
     background-size: cover;
     background-position: center;
@@ -1551,7 +1601,7 @@ p {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    height: 80vh;
+    height: 90vh;
     width: 65%;
   }
 }
@@ -1575,7 +1625,7 @@ p {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    height: 80vh;
+    height: 90vh;
     width: 55%;
   }
 }
@@ -1589,7 +1639,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 90vh;
   }
   .line-up-hero h1 {
     color: white;
@@ -1658,7 +1708,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
+  }
+  #line-up .line-up-hero h2 {
+    color: white;
   }
   .line-up-hero-text {
     display: flex;
@@ -1719,7 +1772,6 @@ p {
     gap: 2rem;
   }
   .about-hero h1 {
-    color: #DAAD29;
     font-size: 2rem;
     text-align: center;
   }
@@ -1731,7 +1783,7 @@ p {
 }
 @media (min-width: 37.5rem) {
   .about-hero {
-    height: 85vh;
+    height: 90vh;
     background-image: url("./images/background-facts.jpg");
     background-size: cover;
     background-position: center;
@@ -1742,7 +1794,6 @@ p {
     gap: 2rem;
   }
   .about-hero h1 {
-    color: #DAAD29;
     font-size: 3rem;
     text-align: center;
     font-weight: 700;
@@ -1859,7 +1910,7 @@ p {
   }
 }
 .arrival-hero {
-  height: 85vh;
+  height: 90vh;
   background-image: url("./images/baden.jpg");
   background-size: cover;
   background-position: center;
@@ -1872,7 +1923,6 @@ p {
   gap: 2rem;
 }
 .arrival-hero h1 {
-  color: #DAAD29;
   text-align: center;
   font-weight: 700;
 }

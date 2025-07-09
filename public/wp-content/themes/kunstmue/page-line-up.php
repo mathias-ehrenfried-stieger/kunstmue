@@ -7,7 +7,7 @@
   <section class="line-up-hero">
     <div class = "line-up-hero-text">
     <h1>TIME-TABLE</h1>
-    <h2 class="golden-text">WER & WANN</h2>
+    <h2>WER & WANN</h2>
     </div>
     </section>
     <section class="line-up-container">

@@ -5,6 +5,7 @@
 <?php get_header(); ?>
 <main>
     <section class="fact-hero">
+        <div class="hero-fact-container">
         <h1>HARD FACTS</h1>
         <div class="hero-fact-text">
             <div>
@@ -31,6 +32,7 @@
                     CAMPING
                 </p>
             </div>
+        </div>
         </div>
     </section>
     <section class="hard-facts-first">
