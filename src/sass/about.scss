@@ -10,9 +10,15 @@
         align-items: center;
         gap: 2rem;
         h1{
-    
+            font-weight: 700;
             font-size: 2rem;
-            text-align: center;
+            text-align: left;
+        }
+        h2{
+            font-size: 1.5rem;
+            text-align: left;
+            font-weight: 700;
+            color: white;
         }
         p{
             color: white;
@@ -38,6 +44,12 @@
             font-size: 3rem;
             text-align: center;
             font-weight: 700;
+        }
+        h2{
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 700;
+            color: white;
         }
         p{
             color: white;
