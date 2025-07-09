@@ -1900,13 +1900,15 @@ p {
   .partner-logo-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3rem;
     width: 65%;
   }
   .partner-logo-container img {
-    max-width: 15rem;
-    max-height: 7rem;
+    max-width: 8rem;
+    max-height: 4rem;
   }
 }
 .arrival-hero {

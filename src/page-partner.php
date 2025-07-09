@@ -35,10 +35,10 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/ronacher.jpg" alt="logos">
 
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/dischgu.png" alt="logos">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/romana.jpg" alt="logos">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/logo_franzl.svg" alt="logos">
 
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/kurtis.png" alt="logos">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/maislinger_logo.png" alt="logos">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/Stieger.jpg" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/traudi.png" alt="logos">
 
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/eddi.png" alt="logos">
