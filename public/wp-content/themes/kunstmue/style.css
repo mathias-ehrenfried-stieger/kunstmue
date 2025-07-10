@@ -902,7 +902,7 @@ p {
     padding: 0.5rem 0;
   }
   .hero-fact-container {
-    width: 60%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1372,27 +1372,29 @@ p {
     gap: 3rem;
     padding: 2rem;
   }
-  .team-row {
+  .vorstand-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: flex-start;
-    gap: 2rem;
   }
   .person {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 80%;
+    justify-content: space-between;
     gap: 1rem;
+    padding: 2rem 0;
+    width: 50%;
   }
   .person img {
-    width: 100%;
+    width: 85%;
     height: auto;
   }
   .person h3 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
+    color: white;
   }
   .contact-block {
     display: flex;
@@ -1429,7 +1431,7 @@ p {
 }
 @media (min-width: 37.5rem) {
   .contact-hero-container {
-    min-height: 86vh;
+    min-height: 90vh;
     background-image: url("./images/contact-header.jpg");
     background-size: cover;
     background-position: top;
@@ -1442,6 +1444,7 @@ p {
     font-weight: 700;
     font-size: 3rem;
     padding-top: 10rem;
+    text-align: left;
   }
   .contact-hero {
     display: flex;
@@ -1492,13 +1495,13 @@ p {
     align-items: center;
     min-height: 80vh;
   }
-  .team-row {
+  .vorstand-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 5rem;
+    gap: 2rem;
   }
   .person {
     display: flex;
@@ -1510,13 +1513,14 @@ p {
   .person h3 {
     font-size: 1.5rem;
     font-weight: 700;
+    color: white;
   }
   .person p {
     font-size: 1rem;
     font-weight: 400;
   }
   .person img {
-    width: 15rem;
+    width: 13rem;
     height: auto;
   }
   .vorstand-container {
@@ -1578,7 +1582,7 @@ p {
     width: 100%;
   }
   .team-img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 }
