@@ -1441,9 +1441,11 @@ p {
     align-items: center;
   }
   .contact-hero-container h1 {
+    position: relative;
+    padding-top: 5rem;
+    right: 15%;
     font-weight: 700;
     font-size: 3rem;
-    padding-top: 10rem;
     text-align: left;
   }
   .contact-hero {
