@@ -5,6 +5,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: multiply;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -83,8 +85,10 @@
         .line-up-hero{
 
         background-image: url('./images/l-u-banner.jpg');
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: multiply;
         display: flex;
         flex-direction: column;
         justify-content: center;

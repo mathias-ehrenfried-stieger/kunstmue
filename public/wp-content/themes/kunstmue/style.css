@@ -617,6 +617,8 @@ p {
     background-image: url("./images/background-facts.jpg");
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -734,8 +736,8 @@ p {
     gap: 2rem;
   }
   .plan {
-    max-height: 20rem;
-    max-width: 20rem;
+    max-height: 17rem;
+    max-width: 17rem;
     background-color: #E9E9E9;
   }
   .hard-facts-fourth {
@@ -884,6 +886,8 @@ p {
     background-image: url("./images/background-facts.jpg");
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1642,6 +1646,8 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1709,8 +1715,10 @@ p {
   }
   #line-up .line-up-hero {
     background-image: url("./images/l-u-banner.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: center;
