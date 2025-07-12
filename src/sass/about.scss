@@ -4,6 +4,8 @@
         background-image: url('./images/background-facts.jpg');
         background-size: cover;
         background-position: center;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: multiply;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -35,6 +37,8 @@
         background-image: url('./images/background-facts.jpg');
         background-size: cover;
         background-position: center;
+        background-color: rgba(0,0,0,0.4);
+        background-blend-mode: multiply;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -20,7 +20,7 @@
     <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" alt="Line Up">   
 
     <img class="plan mobile" src="<?php echo get_template_directory_uri(); ?>/images/time-table-mobile.jpg" alt="Line Up"> 
-    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/line-up-desktop.jpg" download>Download Time-Table</a>
+    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a>
     </div> 
     </div>
   </section>
@@ -44,18 +44,19 @@
               Doors Open: 10:00 Uhr
           </p>
           <p>
+              Frühschoppen: ab 10:00 Uhr
+          </p>
+          <p>
+              Kinderprogramm: ab 14:00 Uhr
+          </p>
+          <p>
               Bands: ab 16:30 Uhr
           </p>
           <p>
               Foodtruck, Kaffee-, Snack- und Kuchenbuffet, Merchandise Stand
           </p>
           <h3>Frühschoppen mit Live Volksmusik & Kinderprogramm</h3>
-          <p>
-              Frühschoppen: ab 10:00 Uhr
-          </p>
-          <p>
-              Kinderprogramm: ab 14:00 Uhr
-          </p>
+
           <p class="bold">
               Frühshoppen
           </p>
