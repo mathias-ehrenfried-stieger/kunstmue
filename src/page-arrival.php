@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 <main>
     <section class="arrival-hero">
-        <div class="arrival-hero-text"><h1>ANREISE</h1>
+        <div class="hero-text-general"><h1>ANREISE</h1>
         <h2>SO KOMMST DU ZUM FESTIVAL</h2></div>
     </section>
     <section class="hard-facts-fourth">

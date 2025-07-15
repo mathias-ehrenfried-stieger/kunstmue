@@ -234,7 +234,6 @@ main h2, main h3 {
 }
 main h1 {
   text-align: center;
-  font-size: 2rem;
   color: white;
 }
 main .pd-4 {
@@ -1445,11 +1444,7 @@ p {
     align-items: center;
   }
   .contact-hero-container h1 {
-    position: relative;
-    padding-top: 5rem;
-    right: 15%;
     font-weight: 700;
-    font-size: 3rem;
     text-align: left;
   }
   .contact-hero {
@@ -1685,7 +1680,7 @@ p {
     width: 100%;
     height: auto;
   }
-  .line-up-hero-text {
+  .hero-text-general {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1706,13 +1701,6 @@ p {
   #line-up h1, #line-up h2 {
     font-weight: 700;
   }
-  #line-up h1 {
-    font-size: 3rem;
-    text-align: left;
-  }
-  #line-up h2 {
-    font-size: 2rem;
-  }
   #line-up .line-up-hero {
     background-image: url("./images/l-u-banner.jpg");
     background-size: 100%;
@@ -1728,13 +1716,20 @@ p {
   #line-up .line-up-hero h2 {
     color: white;
   }
-  .line-up-hero-text {
+  .hero-text-general {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 7rem;
     width: 60%;
+  }
+  .hero-text-general h1 {
+    font-size: 4rem;
+  }
+  .hero-text-general h2 {
+    color: white;
+    font-size: 2.5rem;
   }
   .line-up-container {
     display: flex;
@@ -1820,13 +1815,10 @@ p {
     gap: 2rem;
   }
   .about-hero h1 {
-    font-size: 3rem;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
   }
   .about-hero h2 {
-    font-size: 1.5rem;
-    text-align: center;
     font-weight: 700;
     color: white;
   }
@@ -1962,7 +1954,6 @@ p {
 .arrival-hero h2 {
   text-align: left;
   font-weight: 700;
-  font-size: 1.5rem;
   color: white;
 }
 
@@ -2049,11 +2040,6 @@ p {
   .row-70 img {
     max-width: 100%;
     height: auto;
-  }
-}
-@media (min-width: 37.5rem) {
-  .arrival-hero h1 {
-    font-size: 3rem;
   }
 }
 

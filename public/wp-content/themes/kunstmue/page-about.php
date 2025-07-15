@@ -5,7 +5,7 @@
   <?php get_header(); ?>
   <main>
     <section class="about-hero">
-        <div class="arrival-hero-text"><h1>KUNSTMUE FESTIVAL</h1>
+        <div class="hero-text-general"><h1>KUNSTMUE FESTIVAL</h1>
         <h2>FREE ALTERNATIVE MUSIC FESTIVAL</h2></div>
     </section>
       <section class="section__normal">

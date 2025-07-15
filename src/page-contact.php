@@ -5,7 +5,10 @@
   <?php get_header(); ?>
   <main>
     <section class="contact-hero-container">
-    <h1>TEAM & <br>KONTAKT</h1>
+        <div class="hero-text-general">
+        <h1>TEAM & KONTAKT</h1>
+        <h2>WERDE TEIL DER CREW</h2>
+        </div>
     </section>
     <section class="contact-block">
         <div class="contact-content">

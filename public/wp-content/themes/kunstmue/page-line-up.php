@@ -5,7 +5,7 @@
 <?php get_header(); ?>
   <main id="line-up">
   <section class="line-up-hero">
-    <div class = "line-up-hero-text">
+    <div class = "hero-text-general">
     <h1>TIME-TABLE</h1>
     <h2>WER & WANN</h2>
     </div>
