@@ -77,7 +77,8 @@
         <h2>Gratis Caravan & Camping</h2>
         <p>Es gibt genügend Zeltplätze in einem kleinen Waldstück neben der Traun. Außerdem stehen kostenlose Caravanplätze zur Verfügung.
             Weitere Infos unter <a  href="<?php echo get_permalink( $query->post ); ?>">FACTS!</a><p>
-                <a href="mailto:kunstmueverein@gmail.com?subject=Reservierung Caravanplatz" class="btn">Jetzt Caravanplatz sichern!</a>
+        <p class="bold">Leider sind die Caravanplätze heuer bereits ausreserviert!</p>
+                <!--<a href="mailto:kunstmueverein@gmail.com?subject=Reservierung Caravanplatz" class="btn">Jetzt Caravanplatz sichern!</a> -->
 
         </div>
             <img src="<?php echo get_template_directory_uri(); ?>/images/Leit-Traun.jpg" alt="Traun">
