@@ -13,7 +13,8 @@
   </section>
   <section class="partner-logo">
     <div class="partner-logo-container">
-      
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/KUPF-Logo2018.svg" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/Feuerwehr.JPG" alt="logos">
       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/goisern.jpg" alt="logos">
   
