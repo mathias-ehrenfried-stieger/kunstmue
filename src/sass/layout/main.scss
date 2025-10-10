@@ -2,7 +2,9 @@ main {
   h2,h3{
     color: $gold;
   }
-
+.white{
+  color: white !important;
+}
  // allgemeine Style
  h1{
   text-align: center;

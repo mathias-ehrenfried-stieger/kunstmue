@@ -40,10 +40,12 @@
 ?>
         <a class="btn" href="<?php echo get_permalink( $query->post ); ?>">Mehr dazu</a>
       </div>
-      
+           <h2 class="white">Booking Phase geöffnet: 1. Oktober - 15. Dezember 2025</h2>
+      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> 
     </section>
     <section class="below">
-      <h1>DAS WAR DAS KUNSTMUE FESTIVAL 2024</h1>
+    
+    <h2 class="white">DAS WAR DAS KUNSTMUE FESTIVAL 2024</h2>
       <div class="video-container">
         <iframe src="https://www.youtube.com/embed/Fh5mBoz6Yic?si=aWMGWTzE-s_fu_sN" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
