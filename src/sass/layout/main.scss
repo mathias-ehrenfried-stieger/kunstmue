@@ -11,6 +11,10 @@ main {
   color: white;
 
 }
+
+  .position-center{
+    text-align: center;
+  }
   .pd-4{
     padding: 1rem;
   }
@@ -134,11 +138,21 @@ p{
       line-height: 20px;
     }
     .hero{
-      background-image: url('./images/line-up-mobile.jpg');
+      background-image: url('./images/fp-header.jpg');
       height: 90vh; 
       width: 100%; 
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
+      position: relative;
+      h1{
+        position: absolute;
+        top:80%;
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        color: $gold;
+      }
     }
 
     .below{
@@ -268,12 +282,22 @@ p{
     }
     
 .hero {
-    background-image: url('./images/line-up-desktop.jpg');
+    background-image: url('./images/fp-header.jpg');
     height: 90vh; 
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
+    h1{
+      position: absolute;
+      top:80%;
+      left: 60%;
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      color: $gold;
+    }
 }
 .below{
   background-color: #1e1e1e;

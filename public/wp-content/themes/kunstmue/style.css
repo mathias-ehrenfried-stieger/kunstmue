@@ -239,6 +239,9 @@ main h1 {
   text-align: center;
   color: white;
 }
+main .position-center {
+  text-align: center;
+}
 main .pd-4 {
   padding: 1rem;
 }
@@ -354,11 +357,21 @@ p {
     line-height: 20px;
   }
   main .hero {
-    background-image: url("./images/line-up-mobile.jpg");
+    background-image: url("./images/fp-header.jpg");
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  main .hero h1 {
+    position: absolute;
+    top: 80%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #DAAD29;
   }
   main .below {
     background-color: #1e1e1e;
@@ -474,12 +487,22 @@ p {
     text-decoration: none;
   }
   main .hero {
-    background-image: url("./images/line-up-desktop.jpg");
+    background-image: url("./images/fp-header.jpg");
     height: 90vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
+  }
+  main .hero h1 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #DAAD29;
   }
   main .below {
     background-color: #1e1e1e;

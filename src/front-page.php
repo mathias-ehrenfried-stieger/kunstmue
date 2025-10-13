@@ -3,6 +3,10 @@
   <?php get_header(); ?>
   <main>
     <section class="hero dark">
+        <h1>SAFE THE DATE
+          <br>
+          24. - 25. JULI 2026
+        </h1>
     </section>
     <section class = "intro dark">
 
@@ -32,6 +36,12 @@
               </h2>
             </div>
         </div>
+
+         <h2 class="position-center">Booking Phase geöffnet:
+            <br>
+            <span class="white">15. Oktober - 15. Dezember 2025</span></h2>
+      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> 
+
         <div class="hero-fp-text">
         <p>Auch heuer rocken wieder zahlreiche Bands verschiedenster Genres die Festival Bühne, zudem dürft ihr euch wieder auf das Frühschoppen mit unseren örtlichen Volksmusikanten, ein buntes Kinderprogramm, köstliche regionale Speisen – inklusive vegetarischer und veganer Optionen – und einzigartige Festivalvibes freuen! Bleibt dran für weitere Updates und seid gespannt auf das, was euch 2025 erwartet!</p>
         </div>
@@ -40,8 +50,6 @@
 ?>
         <a class="btn" href="<?php echo get_permalink( $query->post ); ?>">Mehr dazu</a>
       </div>
-           <h2 class="white">Booking Phase geöffnet: 1. Oktober - 15. Dezember 2025</h2>
-      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> 
     </section>
     <section class="below">
     
