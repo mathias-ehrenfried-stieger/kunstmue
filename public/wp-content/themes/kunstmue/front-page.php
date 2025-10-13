@@ -43,8 +43,9 @@
       <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> 
 
         <div class="hero-fp-text">
-        <p>Auch heuer rocken wieder zahlreiche Bands verschiedenster Genres die Festival Bühne, zudem dürft ihr euch wieder auf das Frühschoppen mit unseren örtlichen Volksmusikanten, ein buntes Kinderprogramm, köstliche regionale Speisen – inklusive vegetarischer und veganer Optionen – und einzigartige Festivalvibes freuen! Bleibt dran für weitere Updates und seid gespannt auf das, was euch 2025 erwartet!</p>
-        </div>
+        <p>Das Kunstmue Festival ist ein Treffpunkt für Musikliebhaber, Kulturschaffende und Freigeister. Was einst als Geheimtipp begann, ist längst zu einem fixen Bestandteil der Kulturszene im Salzkammergut geworden.</p>
+        <p>Elf Bands verschiedenster Genres sorgen für ein abwechslungsreiches Line-up und echte Festivalvibes. Kulinarisch wird man durch regionale Gastronomen sowie das Kaffee- & Kuchenbuffet bestens versorgt. Samstags steht der traditionelle Frühschoppen mit örtlichen Volksmusikanten auf dem Programm, während sich die Kleinen auf ein buntes Kinderprogramm in Kooperation mit der Freiwilligen Feuerwehr Bad Goisern freuen dürfen.</p>  
+      </div>
 <?php
   $query = new WP_Query( array( 'pagename' => 'FACTS' ) );
 ?>
