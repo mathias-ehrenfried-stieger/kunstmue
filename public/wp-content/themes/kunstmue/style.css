@@ -289,11 +289,6 @@ p {
   align-items: center;
 }
 
-@media (min-width: 37.4375rem) and (max-width: 37.5rem) {
-  .mobile {
-    display: none;
-  }
-}
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   .intro {
     display: flex;
@@ -508,10 +503,10 @@ p {
   main .hero h1 {
     position: absolute;
     top: 80%;
-    left: 60%;
+    left: 50%;
     font-size: 3rem;
     font-weight: 700;
-    text-align: center;
+    text-align: right;
     color: #DAAD29;
   }
   main .below {
@@ -570,6 +565,11 @@ p {
     font-size: 2.5rem;
     font-weight: 700;
   }
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 37.4375rem) and (max-width: 64rem) {
   .mobile {
     display: none;
   }

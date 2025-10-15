@@ -28,8 +28,8 @@
 
         <div class="contact-content">
         <h2>Booking</h2>
-            <p class="golden-text bigAndBold">BOOKING Phase: 1. Oktober - 15. Dezember 2025</p>
-            <p class="golden-text bigAndBold">Jetzt bewerben: booking@kunstmue.at</p>
+            <p class="golden-text bigAndBold">BOOKING Phase: 15. Oktober - 15. Dezember 2025</p>
+            <p class="golden-text bigAndBold">Jetzt bewerben: booking@kunstmue.com</p>
             <p>Unbedingt Kontaktdaten und Hörbeispiele mitschicken!</p>
             <p>Booking Anfragen bitte ausschließlich über die Booking E-Mailadresse! Unbedingt Hörbeispiele inkludieren, Telefonnummer nicht vergessen! Anfragen via Facebook, Instagram etc. werden nicht berücksichtigt.</p>
 

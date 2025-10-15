@@ -60,11 +60,7 @@ p{
   align-items: center;
 }
 
-@include breakpoint($mobile, $desktop) {
-  .mobile{
-    display: none;
-  }
-}
+
 
 @include breakpoint(0, $mobile) {
   .intro{
@@ -302,10 +298,10 @@ p{
     h1{
       position: absolute;
       top:80%;
-      left: 60%;
+      left: 50%;
       font-size: 3rem;
       font-weight: 700;
-      text-align: center;
+      text-align: right;
       color: $gold;
     }
 }
@@ -374,4 +370,10 @@ p{
   display: none;
 }
 
+}
+
+@include breakpoint($mobile, $medium) {
+  .mobile{
+    display: none;
+  }
 }
