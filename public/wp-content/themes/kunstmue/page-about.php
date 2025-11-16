@@ -2,7 +2,16 @@
 /* Template Name: about */
 ?>
 
-  <?php get_header(); ?>
+  <?php get_header();
+  include '/php/functions.php';
+  global $post;
+  $postID = get_the_ID();
+  $headings = getHeadersFromBlocks($postID);
+  $content = parse_blocks($post->post_content);
+  $images = getImageFromBlocks($postID);
+  $imageSrc = wp_get_attachment_image( $images[0]['id'], 'large' );
+  
+  ?>
   <main>
     <section class="about-hero">
         <div class="hero-text-general"><h1>KUNSTMUE FESTIVAL</h1>
