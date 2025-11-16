@@ -3,7 +3,7 @@
   <?php get_header(); ?>
   <main>
     <section class="hero dark">
-        <h1>SAFE THE DATE
+        <h1>SAVE THE DATE
           <br>
           24. - 25. JULI 2026
         </h1>
