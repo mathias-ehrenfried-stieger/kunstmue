@@ -39,12 +39,14 @@
   const menu = document.querySelector('#menu');
   const openMenu = () => {
         menu.classList.remove('hidden');
+        console.log('Open');
         close.classList.remove('hidden');
         burger.classList.add('hidden');
     }
 
     const closeMenu = () => {
         menu.classList.add('hidden');
+        console.log('Close');
         close.classList.add('hidden');
         burger.classList.remove('hidden');
     }
