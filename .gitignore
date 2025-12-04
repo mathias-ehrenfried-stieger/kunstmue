@@ -2,3 +2,4 @@ public/wp-config.php
 public/wp-content/uploads
 node_modules/
 /.idea/
+.server-to-local.sh
