@@ -37,10 +37,10 @@
             </div>
         </div>
 
-         <h2 class="position-center">Booking Phase geöffnet:
+        <!-- <h2 class="position-center">Booking Phase geöffnet:
             <br>
             <span class="white">15. Oktober - 15. Dezember 2025</span></h2>
-      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> 
+      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> -->
 
         <div class="hero-fp-text">
         <p>Das Kunstmue Festival ist ein Treffpunkt für Musikliebhaber, Kulturschaffende und Freigeister. Was einst als Geheimtipp begann, ist längst zu einem fixen Bestandteil der Kulturszene im Salzkammergut geworden.</p>

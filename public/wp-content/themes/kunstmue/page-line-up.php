@@ -10,11 +10,13 @@
     <h2>WER & WANN</h2>
     </div>
     </section>
-    <section class="line-up-container">
-    <div class="line-up">
+  <section class="line-up-container">
+    <div>
+        <h2>Wir arbeiten aktuell am Line Up 2026 - Stay tuned!</h2>
     </div>
+
   </section>
-  <section class="line-up-container dark">
+  <!--<section class="line-up-container dark">
     <div>
     <div class="line-up-content">
     <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" alt="Line Up">   
@@ -23,11 +25,11 @@
     <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a>
     </div> 
     </div>
-  </section>
+  </section>-->
   <section class = "section__normal pd-16-tb">
-      <h2>Programm 2025</h2>
+      <h2>Programm 2026</h2>
       <div class="container__basic">
-          <h3>Freitag, 25. Juli 2025
+          <h3>Freitag, 25. Juli 2026
           </h3>
           <p>
               Doors Open: 16:00 Uhr
@@ -39,7 +41,7 @@
               Foodtruck, Kaffee-, Snack- und Kuchenbuffet, Merchandise Stand
 
           </p>
-          <h3>Samstag, 26. Juli 2025</h3>
+          <h3>Samstag, 26. Juli 2026</h3>
           <p>
               Doors Open: 10:00 Uhr
           </p>

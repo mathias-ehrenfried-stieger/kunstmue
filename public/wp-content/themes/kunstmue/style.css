@@ -1740,7 +1740,7 @@ p {
   }
   #line-up .line-up-hero {
     background-image: url("./images/l-u-banner.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
