@@ -1,21 +1,8 @@
-#!/bin/sh
 #!/usr/bin/env bash
+source .db_data.sh
 
-
-REMOTE_SSH_USER=""
-REMOTE_SSH_HOST=""
 REMOTE_SSH="${REMOTE_SSH_USER}@${REMOTE_SSH_HOST}"
 
-# Remote-MySQL
-REMOTE_DB_NAME=""
-
-# Lokale MySQL
-LOCAL_DB_NAME=""
-LOCAL_DB_PASS=""
-
-# Optional: MySQL-User explizit angeben (wenn du kein ~/.my.cnf nutzt)
-REMOTE_DB_USER=""
-LOCAL_DB_USER=""
 
 DUMP_FILE="dump_$(date +%Y%m%d_%H%M%S).sql"
 
