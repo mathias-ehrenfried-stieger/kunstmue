@@ -69,23 +69,27 @@ function getHeadersFromBlocks($postID){
  
 function getParagraphsFromBlocks( $postID ) {
     $post   = get_post( $postID );
+    if ( ! $post ) return [];
+
     $blocks = parse_blocks( $post->post_content );
+    $paras  = [];
 
-    $texts = [];
-
-    $walker = function( $blocks ) use ( &$texts, &$walker ) {
+    $walker = function( $blocks ) use ( &$paras, &$walker ) {
         foreach ( $blocks as $block ) {
 
-            if ( $block['blockName'] === 'core/paragraph' ) {
-                $text = '';
-                if ( ! empty( $block['innerHTML'] ) ) {
-                    $text = wp_strip_all_tags( $block['innerHTML'] );
-                } elseif ( ! empty( $block['innerContent'][0] ) ) {
-                    $text = wp_strip_all_tags( $block['innerContent'][0] );
+            if ( ($block['blockName'] ?? null) === 'core/paragraph' ) {
+                // Prefer innerHTML; fallback to joining ALL innerContent parts (not only [0])
+                $html = $block['innerHTML'] ?? '';
+
+                if ( $html === '' && ! empty( $block['innerContent'] ) ) {
+                    $html = implode( '', $block['innerContent'] );
                 }
 
-                if ( $text !== '' ) {
-                    $texts[] = $text;
+                $html = trim( $html );
+
+                if ( $html !== '' ) {
+                    // Keep formatting safely (includes <strong>)
+                    $paras[] = wp_kses_post( $html );
                 }
             }
 
@@ -97,8 +101,10 @@ function getParagraphsFromBlocks( $postID ) {
 
     $walker( $blocks );
 
-    return $texts;
+    return $paras;
 }
+
+
 
 function getImageFromBlocks( $postID ) {
     $post = get_post( $postID );
