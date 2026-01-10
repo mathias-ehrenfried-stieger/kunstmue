@@ -2,7 +2,16 @@
 /* Template Name: line-up */
 ?>
 
-<?php get_header(); ?>
+<?php get_header();
+
+include "/php/functions.php";
+global $post;
+$postID = get_the_ID();
+$headings = getHeadersFromBlocks($postID);
+$paragraphs = getParagraphsFromBlocks($postID);
+$content = parse_blocks($post->post_content);
+ ?>
+
   <main id="line-up">
   <section class="line-up-hero">
     <div class = "hero-text-general">

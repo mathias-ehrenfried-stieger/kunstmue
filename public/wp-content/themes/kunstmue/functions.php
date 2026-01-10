@@ -27,10 +27,29 @@ function register_my_menus() {
    }
    add_action( 'init', 'register_my_menus' );
 
+function stripHTags($text)
+{
+    $text = preg_replace(
+    '/^<h[1-6][^>]*>|<\/h[1-6]>$/i',
+    '',
+    trim( $text )
+);
+
+$text = wp_kses(
+    $text,
+    [
+        'br'     => [],
+        'em'     => [],
+        'strong' => [],
+    ]
+);
+return $text;
+}
+
+
 
 function getHeadersFromBlocks($postID){
-
-  $post   = get_post( $postID );
+    $post   = get_post( $postID );
     $blocks = parse_blocks( $post->post_content );
 
     $headings = [];
@@ -43,9 +62,9 @@ function getHeadersFromBlocks($postID){
 
                 $text  = '';
                 if ( ! empty( $block['innerHTML'] ) ) {
-                    $text = wp_strip_all_tags( $block['innerHTML'] );
+                    $text = stripHTags($block['innerHTML']);
                 } elseif ( ! empty( $block['innerContent'][0] ) ) {
-                    $text = wp_strip_all_tags( $block['innerContent'][0] );
+                    $text = stripHTags( $block['innerContent'][0] );
                 }
 
                 if ( $text !== '' ) {
@@ -66,7 +85,7 @@ function getHeadersFromBlocks($postID){
 
     return $headings;
 }
- 
+
 function getParagraphsFromBlocks( $postID ) {
     $post   = get_post( $postID );
     if ( ! $post ) return [];
