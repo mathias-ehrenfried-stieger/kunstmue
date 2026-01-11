@@ -2,35 +2,29 @@
 /* Template Name: facts */
 ?>
 
-<?php get_header(); ?>
+<?php
+get_header();
+
+include "/php/functions.php";
+global $post;
+$postID = get_the_ID();
+$headings = getHeadersFromBlocks($postID);
+$paragraphs = getParagraphsFromBlocks($postID);
+$content = parse_blocks($post->post_content);
+?>
 <main>
     <section class="fact-hero">
         <div class="hero-fact-container">
-        <h1>HARD FACTS</h1>
+        <h1><?php echo $headings[0]['text']; ?></h1>
         <div class="hero-fact-text">
             <div>
-                <p>
-                    2 TAGE
-                </p>
-                <p>
-                    11 BANDS
-                </p>
+                <?php echo $paragraphs[0]; ?>
             </div>
             <div>
-                <p>
-                    FREIER
-                </p>
-                <p>
-                    EINTRITT
-                </p>
+               <?php echo $paragraphs[1]; ?>
             </div>
             <div>
-                <p>
-                    GRATIS
-                </p>
-                <p>
-                    CAMPING
-                </p>
+             <?php echo $paragraphs[2]; ?>
             </div>
         </div>
         </div>

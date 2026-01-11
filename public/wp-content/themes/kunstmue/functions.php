@@ -182,3 +182,59 @@ function getImageFromBlocks( $postID ) {
 
     return $images;
 }
+function getListsFromBlocks( $postID ) {
+    $post = get_post( $postID );
+    if ( ! $post ) {
+        return [];
+    }
+
+    $blocks = parse_blocks( $post->post_content );
+
+    $lists = [];
+
+    $walker = function( $blocks ) use ( &$lists, &$walker ) {
+        foreach ( $blocks as $block ) {
+
+            // Core List block
+            if ( isset($block['blockName']) && $block['blockName'] === 'core/list' ) {
+
+                $html = $block['innerHTML'] ?? '';
+                $html = trim( $html );
+
+                // Determine ordered/unordered if possible
+                $type = 'ul';
+                if ( stripos( $html, '<ol' ) !== false ) {
+                    $type = 'ol';
+                } elseif ( stripos( $html, '<ul' ) !== false ) {
+                    $type = 'ul';
+                }
+
+                // Extract LI contents, keeping inner HTML
+                $items = [];
+                if ( $html !== '' ) {
+                    // Match <li>...</li> including newlines
+                    if ( preg_match_all( '/<li\b[^>]*>(.*?)<\/li>/is', $html, $matches ) ) {
+                        foreach ( $matches[1] as $liInner ) {
+                            $items[] = trim( $liInner ); // keeps <br>, <em>, etc.
+                        }
+                    }
+                }
+
+                $lists[] = [
+                    'type'  => $type,   // 'ul' or 'ol'
+                    'html'  => $html,   // full list HTML
+                    'items' => $items,  // array of li innerHTML
+                ];
+            }
+
+            // Recurse into nested blocks
+            if ( ! empty( $block['innerBlocks'] ) ) {
+                $walker( $block['innerBlocks'] );
+            }
+        }
+    };
+
+    $walker( $blocks );
+
+    return $lists;
+}

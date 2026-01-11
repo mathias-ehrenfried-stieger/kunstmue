@@ -15,8 +15,8 @@ $content = parse_blocks($post->post_content);
   <main id="line-up">
   <section class="line-up-hero">
     <div class = "hero-text-general">
-    <h1>TIME-TABLE</h1>
-    <h2>WER & WANN</h2>
+    <h1><?php echo $headings[0]['text']; ?></h1>
+    <h2><?php echo $headings[1]['text']; ?></h2>
     </div>
     </section>
   <section class="line-up-container">
@@ -36,45 +36,22 @@ $content = parse_blocks($post->post_content);
     </div>
   </section>-->
   <section class = "section__normal pd-16-tb">
-      <h2>Programm 2026</h2>
+      <h2><?php echo $headings[2]['text']; ?></h2>
       <div class="container__basic">
-          <h3>Freitag, 25. Juli 2026
-          </h3>
-          <p>
-              Doors Open: 16:00 Uhr
-          </p>
-          <p>
-              Bands: ab 18:00 Uhr
-          </p>
-          <p>
-              Foodtruck, Kaffee-, Snack- und Kuchenbuffet, Merchandise Stand
+          <h3><?php echo $headings[3]['text']; ?></h3>
+           <?php echo $paragraphs[0]; ?>
+           <?php echo $paragraphs[1]; ?>
+           <?php echo $paragraphs[2]; ?>
+          <h3><?php echo $headings[4]['text']; ?></h3>
+           <?php echo $paragraphs[3]; ?>
+           <?php echo $paragraphs[4]; ?>
+           <?php echo $paragraphs[5]; ?>
+           <?php echo $paragraphs[6]; ?>
+           <?php echo $paragraphs[7]; ?>
+          <h3><?php echo $headings[5]['text']; ?></h3>
 
-          </p>
-          <h3>Samstag, 26. Juli 2026</h3>
-          <p>
-              Doors Open: 10:00 Uhr
-          </p>
-          <p>
-              Frühschoppen: ab 10:00 Uhr
-          </p>
-          <p>
-              Kinderprogramm: ab 14:00 Uhr
-          </p>
-          <p>
-              Bands: ab 16:30 Uhr
-          </p>
-          <p>
-              Foodtruck, Kaffee-, Snack- und Kuchenbuffet, Merchandise Stand
-          </p>
-          <h3>Frühschoppen mit Live Volksmusik & Kinderprogramm</h3>
-
-          <p class="bold">
-              Frühshoppen
-          </p>
-          <p>
-              Live Volksmusik & freies Musizieren:<br>
-              Volksmusikanten sind gerne eingeladen mitzumachen
-          </p>
+           <?php echo $paragraphs[8]; ?>
+           <?php echo $paragraphs[9]; ?>
           <ul class="hover-none">
                 <li>Kaffee & Kuchenbuffet</li>
                 <li>Kesselheisse mit diversen Würstel und Gebäck</li>
@@ -82,12 +59,8 @@ $content = parse_blocks($post->post_content);
                 <li> frisches Gebäck von Kurtis Cafe & Bäckerei</li>
                 <li>diverse vegane und vegetarische Aufstriche</li>
           </ul>
-          <p class="bold">
-              Kinderprogramm
-          </p>
-          <p>
-              In Kooperation mit der Freiwilligen Feuerwehr Bad Goisern:
-          </p>
+           <?php echo $paragraphs[10]; ?>
+           <?php echo $paragraphs[11]; ?>
           <ul class="hover-none">
               <li>Nostalgiespritze</li>
               <li>Kinderschminken</li>

@@ -32,13 +32,13 @@ $content = parse_blocks($post->post_content);
             <div class="timeline-container">
                 <div class="desktop anreiseart">
                     <h3>
-                        ZUG
+                        <?php echo $headings[4]['text']; ?>
                     </h3>
                     <h3>
-                        BUS
+                        <?php echo $headings[5]['text']; ?>
                     </h3>
                     <h3>
-                        AUTO
+                        <?php echo $headings[6]['text']; ?>
                     </h3>
                 </div>
                 <div class="anreiseding">
@@ -46,15 +46,15 @@ $content = parse_blocks($post->post_content);
                 </div>
                 <div class="anreisebeschreibung">
                     <div>
-                        <h2 class="mobile">ZUG</h2>
+                        <h2 class="mobile"><?php echo $headings[4]['text']; ?></h2>
                         <?php echo $paragraphs[3]; ?>
                     </div>
                     <div>
-                        <h2 class="mobile">BUS</h2>
+                        <h2 class="mobile"><?php echo $headings[5]['text']; ?></h2>
                         <?php echo $paragraphs[4]; ?>
                     </div>
                     <div>
-                        <h2 class="mobile">AUTO</h2>
+                        <h2 class="mobile"><?php echo $headings[6]['text']; ?></h2>
                         <?php echo $paragraphs[5]; ?>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ $content = parse_blocks($post->post_content);
     </section>
     <section class="facts-parking">
         <div class="facts-parking-container">
-            <h2><?php echo $headings[4]['text']; ?></h2>
+            <h2><?php echo $headings[7]['text']; ?></h2>
             <img class="park-plan" src="<?php echo get_template_directory_uri(); ?>/images/parking.png" alt="Parkinglot">
         </div>
 
