@@ -18,13 +18,16 @@ $content = parse_blocks($post->post_content);
         <h1><?php echo $headings[0]['text']; ?></h1>
         <div class="hero-fact-text">
             <div>
-                <?php echo $paragraphs[0]; ?>
+                <p><?php echo $headings[1]['text']; ?></p>
+                <p><?php echo $headings[2]['text']; ?></p>
             </div>
             <div>
-               <?php echo $paragraphs[1]; ?>
+                <p><?php echo $headings[3]['text']; ?></p>
+                <p><?php echo $headings[4]['text']; ?></p>
             </div>
             <div>
-             <?php echo $paragraphs[2]; ?>
+                <p><?php echo $headings[5]['text']; ?></p>
+                <p><?php echo $headings[6]['text']; ?></p>
             </div>
         </div>
         </div>

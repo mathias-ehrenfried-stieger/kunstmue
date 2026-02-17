@@ -1,5 +1,3 @@
-
-  
 <?php
 get_header();  
 include "/php/functions.php";
@@ -8,6 +6,7 @@ $postID = get_the_ID();
 $headings = getHeadersFromBlocks($postID);
 $paragraphs = getParagraphsFromBlocks($postID);
 $content = parse_blocks($post->post_content);
+
 ?>
   <main>
     <section class="hero dark">
@@ -26,11 +25,6 @@ $content = parse_blocks($post->post_content);
                 <h2><?php echo $headings[3]['text']; ?></h2>
             </div>
         </div>
-
-        <!-- <h2 class="position-center">Booking Phase geöffnet:
-            <br>
-            <span class="white">15. Oktober - 15. Dezember 2025</span></h2>
-      <a class="btn" href="mailto:booking@kunstmue.com">Jetzt bewerben</a> -->
 
         <div class="hero-fp-text">
           <?php echo $paragraphs[0]; ?>
