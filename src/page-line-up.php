@@ -19,22 +19,16 @@ $content = parse_blocks($post->post_content);
     <h2><?php echo $headings[1]['text']; ?></h2>
     </div>
     </section>
-  <section class="line-up-container">
-    <div>
-        <h2>Wir arbeiten aktuell am Line Up 2026 - Stay tuned!</h2>
-    </div>
+    <section class="line-up-container dark">
+        <div>
+        <div class="line-up-content">
+        <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/bands-2026-desktop.jpg" alt="Line Up">   
 
-  </section>
-  <!--<section class="line-up-container dark">
-    <div>
-    <div class="line-up-content">
-    <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" alt="Line Up">   
-
-    <img class="plan mobile" src="<?php echo get_template_directory_uri(); ?>/images/time-table-mobile.jpg" alt="Line Up"> 
-    <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a>
-    </div> 
-    </div>
-  </section>-->
+        <img class="plan mobile" src="<?php echo get_template_directory_uri(); ?>/images/bands-2026-mobile.jpg" alt="Line Up"> 
+        <!--<a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a> -->
+        </div> 
+        </div>
+      </section>
   <section class = "section__normal pd-16-tb">
       <h2><?php echo $headings[2]['text']; ?></h2>
       <div class="container__basic">
