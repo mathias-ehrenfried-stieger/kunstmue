@@ -1,5 +1,3 @@
-
-  
 <?php
 get_header();  
 include "/php/functions.php";
@@ -9,7 +7,6 @@ $headings = getHeadersFromBlocks($postID);
 $paragraphs = getParagraphsFromBlocks($postID);
 $content = parse_blocks($post->post_content);
 
-var_dump($postID);
 ?>
   <main>
     <section class="hero dark">
