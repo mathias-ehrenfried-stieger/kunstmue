@@ -24,7 +24,7 @@ $content = parse_blocks($post->post_content);
         <div class="line-up-content">
         <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/bands-2026-desktop.jpg" alt="Line Up">   
 
-        <img class="plan mobile" src="<?php echo get_template_directory_uri(); ?>/images/bands-2026-mobile.jpg" alt="Line Up"> 
+        <img class="mobile" src="<?php echo get_template_directory_uri(); ?>/images/bands-2026-mobile.jpg" alt="Line Up"> 
         <!--<a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a> -->
         </div> 
         </div>

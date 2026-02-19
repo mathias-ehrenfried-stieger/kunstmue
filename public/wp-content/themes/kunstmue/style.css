@@ -362,11 +362,11 @@ p {
     line-height: 20px;
   }
   main .hero {
-    background-image: url("./images/fp-header.jpg");
+    background-image: url("./images/bands-2026-mobile.jpg");
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     position: relative;
   }
@@ -497,7 +497,7 @@ p {
     text-decoration: none;
   }
   main .hero {
-    background-image: url("./images/fp-header.jpg");
+    background-image: url("./images/bands-2026-desktop.jpg");
     height: 90vh;
     width: 100%;
     background-position: center;
