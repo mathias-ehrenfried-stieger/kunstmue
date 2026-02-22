@@ -32,7 +32,7 @@ $content = parse_blocks($post->post_content);
   <section class = "section__normal pd-16-tb">
       <h2><?php echo $headings[2]['text']; ?></h2>
       <div class="container__basic">
-          <h3><?php echo $headings[3]['text']; ?></h3>
+      <!--     <h3><?php echo $headings[3]['text']; ?></h3>
            <?php echo $paragraphs[0]; ?>
            <?php echo $paragraphs[1]; ?>
            <?php echo $paragraphs[2]; ?>
@@ -60,8 +60,12 @@ $content = parse_blocks($post->post_content);
               <li>Kinderschminken</li>
               <li>Farbschleuder – T-Shirts bedrucken</li>
               <li>Verschiedene Spiele: Malbilder, Luftballons uvm.</li>
-          </ul>
-      </div>
+          </ul>-->
+          <div class="centered">
+          <?php echo $paragraphs[13]; ?>
+          </div>
+      </div> 
+
   </section>
 <!--  <section class="section__normal">-->
 <!--            <div class="img-big">-->
