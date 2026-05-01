@@ -10,7 +10,6 @@ $content = parse_blocks($post->post_content);
 ?>
   <main>
     <section class="hero dark">
-        <h1><?php echo $headings[0]['text']; ?></h1>
     </section>
     <section class = "intro dark">
 

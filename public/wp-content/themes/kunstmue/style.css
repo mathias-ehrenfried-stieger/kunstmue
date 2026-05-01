@@ -1921,8 +1921,8 @@ p {
     gap: 2rem;
   }
   .partner-logo-container img {
-    max-width: 15rem;
-    max-height: 7rem;
+    max-width: 20rem;
+    max-height: 15rem;
   }
 }
 @media (min-width: 37.5rem) {
