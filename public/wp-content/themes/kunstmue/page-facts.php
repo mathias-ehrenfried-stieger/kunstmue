@@ -52,7 +52,7 @@ $content = parse_blocks($post->post_content);
             <img src="<?php echo get_template_directory_uri(); ?>/images/camping.jpg" alt="Camping">
             <div class="hard-facts-second-text">
                 <h2><?php echo $headings[9]['text']; ?></h2>
-                <a href="mailto:kunstmueverein@gmail.com?subject=Reservierung Caravanplatz" class="btn">Jetzt Caravanplatz sichern!</a>
+                <a href="mailto:infrastruktur@kunstmue.com?subject=Reservierung Caravanplatz" class="btn">Jetzt Caravanplatz sichern!</a>
 
                 <?php echo $paragraphs[4]; ?>
                 <ul>
