@@ -1715,10 +1715,10 @@ p {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .line-up-content img {
-    width: 100%;
+    width: 100vw;
     height: auto;
   }
   .hero-text-general {
@@ -1787,10 +1787,10 @@ p {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .line-up-content img {
-    width: 100%;
+    width: 100vw;
     height: auto;
   }
   .hover-none li:hover {
