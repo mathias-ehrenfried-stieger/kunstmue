@@ -22,10 +22,10 @@ $content = parse_blocks($post->post_content);
     <section class="line-up-container dark">
         <div>
         <div class="line-up-content">
-        <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/KM26_Timetable_Website_1920x1080px_desktop.jpg" alt="Line Up">   
+        <img class="plan desktop" src="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" alt="Line Up">   
 
-        <img class="mobile" src="<?php echo get_template_directory_uri(); ?>/images/KM26_Timetable_Website_1080x1920px_mobile.jpg" alt="Line Up"> 
-        <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/KM26_Timetable_Website_1920x1080px_desktop.jpg" download>Download Time-Table</a>
+        <img class="mobile" src="<?php echo get_template_directory_uri(); ?>/images/time-table-mobile.jpg" alt="Line Up"> 
+        <a class="btn" href="<?php echo get_template_directory_uri(); ?>/images/time-table-desktop.jpg" download>Download Time-Table</a>
         </div> 
         </div>
       </section>
